@@ -85,6 +85,13 @@ netflixdnstest8.com
 netflixdnstest9.com
 ```
 
+OpenAI
+```
+openai.com
+cdn.auth0.com
+openaiapi-site.azureedge.net
+```
+
 Tiktok
 ```
 byteoversea.com
