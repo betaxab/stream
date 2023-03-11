@@ -37,6 +37,16 @@ edge.api.brightcove.com
 players.brightcove.net
 ```
 
+OneTrust Platform
+```
+onetrust.com
+```
+
+Seachange
+```
+seachange.com
+```
+
 ### 全球流媒体
 
 DAZN
@@ -103,6 +113,13 @@ tiktok.com
 tik-tokapi.com
 tiktokcdn.com
 tiktokv.com
+```
+
+Tubi TV
+```
+tubitv.com
+tubi.io
+tubi.video
 ```
 
 TVBAnywhere+
@@ -431,7 +448,15 @@ ABC
 abc.com
 ```
 
-AT&T TV Now
+A&E TV
+```
+aetv.com
+aetnd.com
+sp-prod.net
+
+```
+
+Directv Stream
 ```
 atttvnow.com
 ```
@@ -448,6 +473,18 @@ Cinemax
 ```
 hbo.com
 play.maxgo.com
+```
+
+Crackle
+```
+crackle.com
+secure-web-us-az-crackle-com.akamaized.net
+```
+
+Crunchyroll
+```
+crunchyroll.com
+evidon.com
 ```
 
 CWTV
@@ -549,6 +586,16 @@ huluim.com
 hulustream.com
 ```
 
+KBS America
+```
+kbs.co.kr
+```
+
+KOCOWA
+```
+kocowa.com
+```
+
 Paramount+
 ```
 paramountplus.com
@@ -564,9 +611,21 @@ Peacock
 peacocktv.com
 ```
 
+Philo
+```
+philo.com
+```
+
 Pluto TV
 ```
 pluto.tv
+```
+
+Popcornflix
+```
+popcornflix.com
+schange.com
+seachange.com
 ```
 
 Showtime
@@ -587,6 +646,26 @@ movetv.com
 Starz
 ```
 starz.com
+```
+
+Shudder
+```
+shudder.com
+onetrust.com
+```
+
+TLC Go
+```
+tlc.com
+global-prod.disco-api.com
+partner-logos-prod.disco-api.com
+us1-prod-images.disco-api.com
+onetrust.com
+```
+
+Maths Spot
+```
+now.gg
 ```
 
 MTV
@@ -612,6 +691,12 @@ nbc.co
 nbc.com
 nbcuni.com
 ```
+
+NFL Plus
+```
+nfl.com
+```
+
 
 USA Network & MSNBC & syfy
 ```

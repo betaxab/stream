@@ -7,6 +7,8 @@ DOMAIN-SUFFIX,edgedatg.go.com
 DOMAIN-SUFFIX,cdn.registerdisney.go.com
 DOMAIN-SUFFIX,edge.api.brightcove.com
 DOMAIN-SUFFIX,players.brightcove.net
+DOMAIN-SUFFIX,onetrust.com
+DOMAIN-SUFFIX,seachange.com
 DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net
 DOMAIN-SUFFIX,dazn-api.com
 DOMAIN-SUFFIX,dazn.com
@@ -42,13 +44,16 @@ DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX, openai.com
-DOMAIN, cdn.auth0.com
-DOMAIN, openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openai.com
+DOMAIN,cdn.auth0.com
+DOMAIN,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tubitv.com
+DOMAIN-SUFFIX,tubi.io
+DOMAIN-SUFFIX,tubi.video
 DOMAIN-SUFFIX,tvbanywhere.com.sg
 DOMAIN,dcqvtb6fjzvu6.cloudfront.net
 DOMAIN-SUFFIX,gstatic.com
@@ -195,12 +200,19 @@ DOMAIN-SUFFIX,britbox.com
 DOMAIN-SUFFIX,vod-dash-ww-live.akamaized.net
 DOMAIN-SUFFIX,vod-dash-ntham-comm-live.akamaized.net
 DOMAIN-SUFFIX,abc.com
+DOMAIN-SUFFIX,aetv.com
+DOMAIN-SUFFIX,aetnd.com
+DOMAIN-SUFFIX,sp-prod.net
 DOMAIN-SUFFIX,atttvnow.com
 DOMAIN-SUFFIX,cbs.com
 DOMAIN-SUFFIX,cbsaavideo.com
 DOMAIN-SUFFIX,cbsivideo.com
 DOMAIN-SUFFIX,cbsi.live.ott.irdeto.com
 DOMAIN-SUFFIX,play.maxgo.com
+DOMAIN-SUFFIX,crackle.com
+DOMAIN,secure-web-us-az-crackle-com.akamaized.net
+DOMAIN-SUFFIX,crunchyroll.com
+DOMAIN-SUFFIX,evidon.com
 DOMAIN-SUFFIX,cwtv.com
 DOMAIN-SUFFIX,cwtv-amd-akamai.akamaized.net
 DOMAIN-SUFFIX,edge.cwtv-vod-ext.top.comcast.net
@@ -244,16 +256,28 @@ DOMAIN-SUFFIX,hbonow.com
 DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,huluim.com
 DOMAIN-SUFFIX,hulustream.com
+DOMAIN-SUFFIX,kbs.co.kr
+DOMAIN-SUFFIX,kocowa.com
 DOMAIN-SUFFIX,paramountplus.com
 DOMAIN-SUFFIX,pbs.org
 DOMAIN-SUFFIX,peacocktv.com
+DOMAIN-SUFFIX,philo.com
 DOMAIN-SUFFIX,pluto.tv
+DOMAIN-SUFFIX,popcornflix.com
+DOMAIN-SUFFIX,schange.com
+DOMAIN-SUFFIX,seachange.com
 DOMAIN-SUFFIX,bcboltshowtime1-a.akamaized.net
 DOMAIN-SUFFIX,sho.com
 DOMAIN-SUFFIX,showtime.com
 DOMAIN-SUFFIX,sling.com
 DOMAIN-SUFFIX,movetv.com
 DOMAIN-SUFFIX,starz.com
+DOMAIN-SUFFIX,shudder.com
+DOMAIN-SUFFIX,tlc.com
+DOMAIN,global-prod.disco-api.com
+DOMAIN,partner-logos-prod.disco-api.com
+DOMAIN,us1-prod-images.disco-api.com
+DOMAIN-SUFFIX,now.gg
 DOMAIN-SUFFIX,mtv.com
 DOMAIN-SUFFIX,mtvnservices.com
 DOMAIN-SUFFIX,nationalgeographic.com
@@ -262,6 +286,7 @@ DOMAIN-SUFFIX,nbcuadops-vh.akamaihd.net
 DOMAIN-SUFFIX,nbc.co
 DOMAIN-SUFFIX,nbc.com
 DOMAIN-SUFFIX,nbcuni.com
+DOMAIN-SUFFIX,nfl.com
 DOMAIN-SUFFIX,tve-static-syfy.akamaized.net
 DOMAIN-SUFFIX,tve-static-telemundo.akamaized.net
 DOMAIN-SUFFIX,tve-static-universalkids.akamaized.net
