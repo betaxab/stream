@@ -322,10 +322,13 @@ AbemaTV
 ```
 abema.io
 abema.tv
+abema-tv.com
 ds-linear-abematv.akamaized.net
 ds-vod-abematv.akamaized.net
 ameba.jp
 hayabusa.io
+hayabusa.media
+api-abematv.bucketeer.jp
 ```
 
 DMM
