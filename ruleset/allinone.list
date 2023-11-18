@@ -47,6 +47,8 @@ DOMAIN-SUFFIX,musical.ly
 DOMAIN-SUFFIX,openai.com
 DOMAIN,cdn.auth0.com
 DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN,audio4-ak-spotify-com.akamaized.net
 DOMAIN,heads-ak-spotify-com.akamaized.net
 DOMAIN,spotify.com.edgesuite.net

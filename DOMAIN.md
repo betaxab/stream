@@ -100,6 +100,8 @@ OpenAI
 openai.com
 cdn.auth0.com
 openaiapi-site.azureedge.net
+oaistatic.com
+oaiusercontent.com
 ```
 
 Spotify
