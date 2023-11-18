@@ -352,6 +352,12 @@ happyon.jp
 hulu.jp
 ```
 
+Music.jp
+```
+music.jp
+music-book.jp
+```
+
 NicoNico
 ```
 dmc.nico
