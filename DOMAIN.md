@@ -104,6 +104,12 @@ oaistatic.com
 oaiusercontent.com
 ```
 
+Qobuz
+```
+qobuz.com
+geolocation.onetrust.com
+```
+
 Spotify
 ```
 audio4-ak-spotify-com.akamaized.net
