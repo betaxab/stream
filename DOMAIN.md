@@ -356,6 +356,7 @@ Hulu JP
 ```
 happyon.jp
 hulu.jp
+hjholdings.tv
 ```
 
 Music.jp
