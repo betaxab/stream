@@ -543,7 +543,7 @@ d2lmsumy47c8as.cloudfront.net
 TVer
 ```
 tver.jp
-edge.api.brightcove.com
+api.brightcove.com
 players.brightcove.net
 ```
 
@@ -555,8 +555,8 @@ nxtv.jp
 
 Videomarket
 ```
-videomarket.jp
 vmdash-cenc.akamaized.net
+videomarket.jp
 img.vm-movie.jp
 ```
 
@@ -728,14 +728,14 @@ shahid.net
 
 #### 欧洲地区
 
-Rakuten TV
-```
-rakuten.tv
-```
-
 NLZIET
 ```
 nlziet.nl
+```
+
+Rakuten TV
+```
+rakuten.tv
 ```
 
 Sky ShowTime
@@ -933,7 +933,6 @@ A&E TV
 aetv.com
 aetnd.com
 sp-prod.net
-
 ```
 
 Directv Stream
@@ -954,8 +953,8 @@ cbsservice.aws.syncbak.com
 
 Crackle
 ```
-crackle.com
 secure-web-us-az-crackle-com.akamaized.net
+crackle.com
 ```
 
 Crunchyroll
@@ -966,8 +965,8 @@ evidon.com
 
 CWTV
 ```
-cwtv.com
 cwtv-amd-akamai.akamaized.net
+cwtv.com
 edge.cwtv-vod-ext.top.comcast.net
 edge.cwtv-egress.top.comcast.net
 thecwvideo.com
@@ -992,15 +991,15 @@ disneynow.com
 encoreTVB
 ```
 bcbolt446c5271-a.akamaihd.net
-edge.api.brightcove.com
+api.brightcove.com
 encoretvb.com
 ```
 
 EPIX
 ```
-epix.com
 epixhls.akamaized.net
 epixvpp-vh.akamaihd.net
+epix.com
 ```
 
 ESPN
@@ -1088,79 +1087,6 @@ KOCOWA
 kocowa.com
 ```
 
-Paramount+
-```
-paramountplus.com
-pplusstatic.com
-```
-
-PBS
-```
-pbs.org
-```
-
-Peacock
-```
-peacocktv.com
-peacock.com
-```
-
-Philo
-```
-philo.com
-```
-
-Pluto TV
-```
-pluto.tv
-```
-
-Popcornflix
-```
-popcornflix.com
-schange.com
-seachange.com
-```
-
-Showtime
-```
-bcboltshowtime1-a.akamaized.net
-edge.api.brightcove.com
-players.brightcove.net
-sho.com
-showtime.com
-showtimeanytime.com
-```
-
-SlingTV
-```
-dishworld.com
-movenetworks.com
-movetv.com
-sling.com
-slinginternational.com
-```
-
-Starz
-```
-starz.com
-```
-
-Shudder
-```
-shudder.com
-onetrust.com
-```
-
-TLC Go
-```
-tlc.com
-global-prod.disco-api.com
-partner-logos-prod.disco-api.com
-us1-prod-images.disco-api.com
-onetrust.com
-```
-
 Maths Spot
 ```
 mathsspot.com
@@ -1203,6 +1129,79 @@ NFL Plus
 nfl.com
 ```
 
+Paramount+
+```
+paramountplus.com
+pplusstatic.com
+```
+
+PBS
+```
+pbs.org
+```
+
+Peacock
+```
+peacocktv.com
+peacock.com
+```
+
+Philo
+```
+philo.com
+```
+
+Pluto TV
+```
+pluto.tv
+```
+
+Popcornflix
+```
+popcornflix.com
+schange.com
+seachange.com
+```
+
+Showtime
+```
+bcboltshowtime1-a.akamaized.net
+api.brightcove.com
+players.brightcove.net
+sho.com
+showtime.com
+showtimeanytime.com
+```
+
+Shudder
+```
+shudder.com
+onetrust.com
+```
+
+SlingTV
+```
+dishworld.com
+movenetworks.com
+movetv.com
+sling.com
+slinginternational.com
+```
+
+Starz
+```
+starz.com
+```
+
+TLC Go
+```
+tlc.com
+global-prod.disco-api.com
+partner-logos-prod.disco-api.com
+us1-prod-images.disco-api.com
+onetrust.com
+```
+
 USA Network & MSNBC & syfy
 ```
 tve-static-syfy.akamaized.net
@@ -1234,12 +1233,12 @@ usanetwork.com
 
 CBC Gem
 ```
-cbc.ca
 cbchd1dynamicads-i.akamaihd.net
 cbclivedai5-i.akamaihd.net
 cbcnewshd-f.akamaihd.net
 cbcrcott-gem-key.akamaized.net
 cbcrcott-gem.akamaized.net
+cbc.ca
 go-mpulse.net
 theplatform.com
 ```

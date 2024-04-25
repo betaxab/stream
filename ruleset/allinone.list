@@ -5,7 +5,7 @@ DOMAIN-SUFFIX,uplynk.com
 DOMAIN-SUFFIX,edgedatg.com
 DOMAIN-SUFFIX,edgedatg.go.com
 DOMAIN-SUFFIX,cdn.registerdisney.go.com
-DOMAIN-SUFFIX,edge.api.brightcove.com
+DOMAIN-SUFFIX,api.brightcove.com
 DOMAIN-SUFFIX,players.brightcove.net
 DOMAIN-SUFFIX,onetrust.com
 DOMAIN-SUFFIX,seachange.com
@@ -347,8 +347,8 @@ DOMAIN-SUFFIX,tver.jp
 DOMAIN-SUFFIX,unext.jp
 DOMAIN-SUFFIX,nxtv.jp
 
-DOMAIN-SUFFIX,videomarket.jp
 DOMAIN,vmdash-cenc.akamaized.net
+DOMAIN-SUFFIX,videomarket.jp
 DOMAIN,img.vm-movie.jp
 
 DOMAIN-SUFFIX,worldflipper.jp
@@ -417,9 +417,9 @@ DOMAIN,geo-id-media-001-vidio-com.akamaized.net
 DOMAIN-SUFFIX,mbc.net
 DOMAIN-SUFFIX,shahid.net
 
-DOMAIN-SUFFIX,rakuten.tv
-
 DOMAIN-SUFFIX,nlziet.nl
+
+DOMAIN-SUFFIX,rakuten.tv
 
 DOMAIN-SUFFIX,skyshowtime.com
 DOMAIN-SUFFIX,cssott.com
@@ -531,14 +531,14 @@ DOMAIN-SUFFIX,cbsi.live.ott.irdeto.com
 DOMAIN-SUFFIX,cbsplaylistserver.aws.syncbak.com
 DOMAIN-SUFFIX,cbsservice.aws.syncbak.com
 
-DOMAIN-SUFFIX,crackle.com
 DOMAIN,secure-web-us-az-crackle-com.akamaized.net
+DOMAIN-SUFFIX,crackle.com
 
 DOMAIN-SUFFIX,crunchyroll.com
 DOMAIN-SUFFIX,evidon.com
 
-DOMAIN-SUFFIX,cwtv.com
 DOMAIN-SUFFIX,cwtv-amd-akamai.akamaized.net
+DOMAIN-SUFFIX,cwtv.com
 DOMAIN-SUFFIX,edge.cwtv-vod-ext.top.comcast.net
 DOMAIN-SUFFIX,edge.cwtv-egress.top.comcast.net
 DOMAIN-SUFFIX,thecwvideo.com
@@ -555,9 +555,9 @@ DOMAIN-SUFFIX,disneynow.com
 DOMAIN,bcbolt446c5271-a.akamaihd.net
 DOMAIN-SUFFIX,encoretvb.com
 
-DOMAIN-SUFFIX,epix.com
 DOMAIN-SUFFIX,epixhls.akamaized.net
 DOMAIN-SUFFIX,epixvpp-vh.akamaihd.net
+DOMAIN-SUFFIX,epix.com
 
 DOMAIN,espn.api.edge.bamgrid.com
 DOMAIN-SUFFIX,espn.co.uk
@@ -609,42 +609,6 @@ DOMAIN-SUFFIX,hulustream.com
 
 DOMAIN-SUFFIX,kocowa.com
 
-DOMAIN-SUFFIX,paramountplus.com
-DOMAIN-SUFFIX,pplusstatic.com
-
-DOMAIN-SUFFIX,pbs.org
-
-DOMAIN-SUFFIX,peacocktv.com
-DOMAIN-SUFFIX,peacock.com
-
-DOMAIN-SUFFIX,philo.com
-
-DOMAIN-SUFFIX,pluto.tv
-
-DOMAIN-SUFFIX,popcornflix.com
-DOMAIN-SUFFIX,schange.com
-DOMAIN-SUFFIX,seachange.com
-
-DOMAIN-SUFFIX,bcboltshowtime1-a.akamaized.net
-DOMAIN-SUFFIX,sho.com
-DOMAIN-SUFFIX,showtime.com
-DOMAIN-SUFFIX,showtimeanytime.com
-
-DOMAIN-SUFFIX,dishworld.com
-DOMAIN-SUFFIX,movenetworks.com
-DOMAIN-SUFFIX,movetv.com
-DOMAIN-SUFFIX,sling.com
-DOMAIN-SUFFIX,slinginternational.com
-
-DOMAIN-SUFFIX,starz.com
-
-DOMAIN-SUFFIX,shudder.com
-
-DOMAIN-SUFFIX,tlc.com
-DOMAIN,global-prod.disco-api.com
-DOMAIN,partner-logos-prod.disco-api.com
-DOMAIN,us1-prod-images.disco-api.com
-
 DOMAIN-SUFFIX,mathsspot.com
 DOMAIN-SUFFIX,now.gg
 
@@ -668,6 +632,40 @@ DOMAIN-SUFFIX,nbc.com
 DOMAIN-SUFFIX,nbcuni.com
 
 DOMAIN-SUFFIX,nfl.com
+
+DOMAIN-SUFFIX,paramountplus.com
+DOMAIN-SUFFIX,pplusstatic.com
+
+DOMAIN-SUFFIX,pbs.org
+
+DOMAIN-SUFFIX,peacocktv.com
+DOMAIN-SUFFIX,peacock.com
+
+DOMAIN-SUFFIX,philo.com
+
+DOMAIN-SUFFIX,pluto.tv
+
+DOMAIN-SUFFIX,popcornflix.com
+
+DOMAIN-SUFFIX,bcboltshowtime1-a.akamaized.net
+DOMAIN-SUFFIX,sho.com
+DOMAIN-SUFFIX,showtime.com
+DOMAIN-SUFFIX,showtimeanytime.com
+
+DOMAIN-SUFFIX,shudder.com
+
+DOMAIN-SUFFIX,dishworld.com
+DOMAIN-SUFFIX,movenetworks.com
+DOMAIN-SUFFIX,movetv.com
+DOMAIN-SUFFIX,sling.com
+DOMAIN-SUFFIX,slinginternational.com
+
+DOMAIN-SUFFIX,starz.com
+
+DOMAIN-SUFFIX,tlc.com
+DOMAIN,global-prod.disco-api.com
+DOMAIN,partner-logos-prod.disco-api.com
+DOMAIN,us1-prod-images.disco-api.com
 
 DOMAIN-SUFFIX,tve-static-syfy.akamaized.net
 DOMAIN-SUFFIX,tve-static-telemundo.akamaized.net
@@ -693,12 +691,12 @@ DOMAIN-SUFFIX,tvewnbc-x.akamaized.net
 DOMAIN-SUFFIX,tvewnbc-y.akamaized.net
 DOMAIN-SUFFIX,usanetwork.com
 
-DOMAIN-SUFFIX,cbc.ca
 DOMAIN-SUFFIX,cbchd1dynamicads-i.akamaihd.net
 DOMAIN-SUFFIX,cbclivedai5-i.akamaihd.net
 DOMAIN-SUFFIX,cbcnewshd-f.akamaihd.net
 DOMAIN-SUFFIX,cbcrcott-gem-key.akamaized.net
 DOMAIN-SUFFIX,cbcrcott-gem.akamaized.net
+DOMAIN-SUFFIX,cbc.ca
 
 DOMAIN-SUFFIX,crave.ca
 DOMAIN-SUFFIX,9c9media.com
