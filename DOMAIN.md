@@ -49,14 +49,64 @@ seachange.com
 
 ### 全球流媒体
 
+Amazon Prime Video
+```
+d1v5ir2lpwr8os.cloudfront.net
+d22qjgkvxw22r6.cloudfront.net
+d25xi40x97liuc.cloudfront.net
+d27xxe7juh1us6.cloudfront.net
+dmqdd6hw24ucf.cloudfront.net
+aiv-cdn.net
+aiv-delivery.net
+amazonvideo.com
+atv-ext-eu.amazon.com
+atv-ext-fe.amazon.com
+atv-ext.amazon.com
+atv-ps-eu.amazon.co.uk
+atv-ps-eu.amazon.com
+atv-ps-fe.amazon.co.jp
+atv-ps-fe.amazon.com
+atv-ps.amazon.com
+primevideo.com
+pv-cdn.net
+video.a2z.com
+```
+
+Britbox
+```
+britbox.com
+britbox.co.uk
+vod-dash-ww-live.akamaized.net
+vod-dash-ntham-comm-live.akamaized.net
+vod-hls-ntham-comm.live.akamaized.net
+d2z3p34itxwaj7.cloudfront.net
+bbci.co.uk
+bbc.co.uk
+```
+
+Claude AI
+```
+anthropic.com
+claude.ai
+```
+
 DAZN
 ```
+dc1live2lindazn.akamaized.net
+dc1voddazn.akamaized.net
+dc2voddazn.akamaized.net
+dcalivedazn.akamaized.net
+dcblivedazn.akamaized.net
 d151l6v8er5bdm.cloudfront.net
+d1sgwhnao7452x.cloudfront.net
 dazn-api.com
 dazn.com
 dazndn.com
+dc1-lm-live2dazn.secure.footprint.net
 indazn.com
+indaznlab.com
 intercom.io
+dca-ll-livedazn-dznlivejp.s.llnwi.net
 ```
 
 Disney Plus
@@ -66,11 +116,13 @@ disney-plus.net
 disneyplus.com
 disneystreaming.com
 dssott.com
+cdn.registerdisney.go.com
 ```
 
 HotStar
 ```
 hotstar.com
+hotstarext.com
 ```
 
 Netflix
@@ -78,9 +130,12 @@ Netflix
 fast.com
 netflix.com
 netflix.net
+netflixinvestor.com
+netflixtechblog.com
 nflxext.com
 nflximg.com
 nflximg.net
+nflxsearch.net
 nflxso.net
 nflxvideo.net
 netflixdnstest0.com
@@ -106,8 +161,22 @@ oaiusercontent.com
 
 Qobuz
 ```
+streaming-qobuz-sec.akamaized.net
 qobuz.com
+static-qobuz.com
 geolocation.onetrust.com
+```
+
+Sentanta Sports
+```
+ux1kpaebv0.execute-api.eu.west-1.amazonaws.com
+1ok961aaca.execute-api.eu-west-1.amazonaws.com
+imggaming.s3-eu-west-1.amazonaws.com
+dicelaboratory.com
+diceplatform.com
+imggaming.com
+pndsn.com
+setantasports.com
 ```
 
 Spotify
@@ -138,6 +207,11 @@ spotilocal.com
 tospotify.com
 ```
 
+Steam Store
+```
+steampowered.com
+```
+
 Tiktok
 ```
 byteoversea.com
@@ -160,9 +234,16 @@ tubi.video
 
 TVBAnywhere+
 ```
-tvb.com
-tvbanywhere.com.sg
 dcqvtb6fjzvu6.cloudfront.net
+tvb.com
+tvb.com.au
+tvb.com.cn
+tvbanywhere.com
+tvbanywhere.com.sg
+tvbeventpower.com.hk
+tvbusa.com
+tvbweekly.com
+tvmedia.net.au
 ```
 
 Youtube Premium
@@ -211,20 +292,28 @@ hboasia2-i.akamaihd.net
 hboasia3-i.akamaihd.net
 hboasia4-i.akamaihd.net
 hboasia5-i.akamaihd.net
+hboasialive.akamazed.net
+hbogoprod-vod.akamaized.net
 44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
-s3-ap-southeast-1.amazonaws.com
-cf-images.ap-southeast-1.prod.boltdns.net
 players.brightcove.net
+cf-images.ap-southeast-1.prod.boltdns.net
 dai3fd1oh325y.cloudfront.net
+hbounify-prod.evergent.com
+hbolb.onwardsmg.com
 hbogoasia.com
 hbogoasia.hk
+wmff.warnermediacdn.com
 ```
 
 iQIYI
 ```
+71.am
+gitv.tv
 iqiyi.com
 iqiyipic.com
+iq.com
 qy.net
+
 ```
 
 myTV SUPER
@@ -280,6 +369,7 @@ apl-hamivideo.cdn.hinet.net
 banner-cfnetwork.cdn.hinet.net
 hamivideo.hinet.net
 previewvod-hamivideo.cdn.hinet.net
+scc.ott.hinet.net
 ```
 
 KKBOX & KKTV
@@ -306,6 +396,7 @@ linetv.tw
 
 MyVideo
 ```
+cdn.plyr.io
 myvideo.net.tw
 ```
 
@@ -328,15 +419,27 @@ skyking.com.tw
 
 AbemaTV
 ```
-abema.io
-abema.tv
-abema-tv.com
 ds-linear-abematv.akamaized.net
 ds-vod-abematv.akamaized.net
+linear-abematv.akamaized.net
+vod-abematv.akamaized.net
+abema-tv.com
+abema.io
+abema.tv
 ameba.jp
+api-abematv.bucketeer.jp
 hayabusa.io
 hayabusa.media
-api-abematv.bucketeer.jp
+```
+
+Animestore
+```
+animestore.docomo.ne.jp
+```
+
+Cygames
+```
+cygames.jp
 ```
 
 DMM
@@ -344,6 +447,7 @@ DMM
 dmm-extension.com
 dmm.co.jp
 dmm.com
+dmmapis.com
 ```
 
 Fuji TV
@@ -355,8 +459,38 @@ stream.ne.jp
 Hulu JP
 ```
 happyon.jp
-hulu.jp
+hjholdings.jp
 hjholdings.tv
+hulu.jp
+streaks.jp
+yb.uncn.jp
+```
+
+J:com On Demand
+```
+jcom.co.jp
+zaq.ne.jp
+```
+
+Karaoke@DAM
+```
+clubdam.com
+```
+
+Konosubafd
+```
+konosubafd.jp
+```
+
+Lemino
+```
+lemino.docomo.ne.jp
+```
+
+Mora
+```
+mora.jp
+onetrust.com
 ```
 
 Music.jp
@@ -378,11 +512,24 @@ Paravi
 paravi.jp
 ```
 
+Project Sekai
+```
+colorfulpalette.org
+```
+
 Radiko
 ```
 radiko.jp
 radionikkei.jp
 smartstream.ne.jp
+```
+
+Telasa
+```
+telasa.jp
+kddi-video.com
+videopass.jp
+d2lmsumy47c8as.cloudfront.net
 ```
 
 TVer
@@ -392,6 +539,24 @@ edge.api.brightcove.com
 players.brightcove.net
 ```
 
+U-NEXT
+```
+unext.jp
+nxtv.jp
+```
+
+Videomarket
+```
+videomarket.jp
+vmdash-cenc.akamaized.net
+img.vm-movie.jp
+```
+
+Worldflipper
+```
+worldflipper.jp
+```
+
 WOWOW
 ```
 wowow.co.jp
@@ -399,10 +564,176 @@ wowow.co.jp
 
 ### 韩国区
 
+Afreeca TV
+```
+afreecatv.com
+```
+
+Coupang Play
+```
+coupangplay.com
+```
+
+KBS Domestic
+```
+kbs.co.kr
+```
+
 Naver TV
 ```
 naver.com
+navercorp.com
+pstatic.net
 smartmediarep.com
+```
+
+Tving
+```
+tving.com
+```
+
+Watcha
+```
+watcha.com
+watcha.co.jp
+```
+
+Wavve
+```
+pooq.co.kr
+wavve.com
+```
+
+### 新加坡区
+
+Mewatch
+```
+mewatch.sg
+```
+
+StarHub
+```
+failoverstarhub.akamaized.net
+starhubgo.com
+starhubtvplus.com
+```
+
+### 马来西亚区
+
+Astro
+```
+astro.com.my
+```
+
+Sooka
+```
+sooka.my
+```
+
+### 泰国区
+
+AIS Play
+```
+ais.co.th
+ais-vidnt.com
+```
+
+TrueID
+```
+trueid.net
+```
+
+### 越南区
+
+Clip TV
+```
+cliptv.vn
+```
+
+Galaxy Play
+```
+glxplay.io
+```
+
+K Plus
+```
+kplus.vn
+```
+
+MYTV
+```
+mytv.vn
+```
+
+TV360
+```
+tv360.vn
+```
+
+### 印度区
+
+Discovery Plus
+```
+discoveryplus.in
+```
+
+Jio Cinema
+```
+jiocinema.com
+voot.com
+```
+
+MXPlayer
+```
+mxplayer.in
+```
+
+SonyLiv
+```
+sonyliv.com
+```
+
+Tata Play
+```
+tataplay.com
+```
+
+ZEE5
+```
+zee5.com
+```
+
+### 印度尼西亚
+
+Vidio
+```
+geo-id-media-001-vidio-com.akamaized.net
+```
+
+### 阿联酋区
+
+Shahid
+```
+mbc.net
+shahid.net
+```
+
+#### 欧洲地区
+
+Rakuten TV
+```
+rakuten.tv
+```
+
+NLZIET
+```
+nlziet.nl
+```
+
+Sky ShowTime
+```
+skyshowtime.com
+cssott.com
 ```
 
 ### 英国区
@@ -417,20 +748,29 @@ BBC iPlayer
 ```
 aod-dash-uk-live.akamaized.net
 aod-hls-uk-live.akamaized.net
+as-dash-uk-live.akamaized.net
+as-hls-uk-live.akamaized.net
 vod-dash-uk-live.akamaized.net
+vod-dash-ww-live.akamaized.net
+vod-hls-uk-live.akamaized.net
+vod-sub-uk-live.akamaized.net
 vod-thumb-uk-live.akamaized.net
+vod-thumb-ww-live.akamaized.net
+vs-cmaf-push-uk-live.akamaized.net
 bbc.co
 bbc.co.uk
 bbc.com
+bbc.in
+bbc.net.uk
+bbcchinese.com
 bbci.co
 bbci.co.uk
+bbcmedia.co.uk
+bbcpersian.com
+bbcverticals.com
+bidi.net.uk
 bbcfmt.hs.llnwd.net
-```
-
-Britbox
-```
-britbox.com
-britbox.co.uk
+bbcfmt.s.llnwi.net
 ```
 
 ITV
@@ -442,9 +782,22 @@ itvstatic.com
 
 My5
 ```
+akadash0.akamaized.net
+akadashlive-c5.akamaized.net
+akadashlive-5usa.akamaized.net
+akadashlive-5star.akamaized.net
+akadashlive-paramount.akamaized.net
+akadashlive-5select.akamaized.net
+akasubs.akamaized.net
+player.akamaized.net
 d349g9zuie06uo.cloudfront.net
 channel5.com
 my5.tv
+```
+
+Sky Go
+```
+sky.com
 ```
 
 Skysports
@@ -453,6 +806,11 @@ skysports.com
 ```
 
 ### 法国区
+
+Canal Plus
+```
+canalplus.com
+```
 
 Molotov
 ```
@@ -464,10 +822,75 @@ Salto
 salto.fr
 ```
 
+### 德国区
+
+Joyn
+```
+joyn.de
+```
+
+Sky DE
+```
+sky.de
+edge.api.brightcove.com
+```
+
+ZDF
+```
+zdf.de
+```
+
+### 意大利区
+
+RaiPlay
+```
+rai.it
+raiplay.it
+```
+
+### 西班牙区
+
+Movistar Plus
+```
+movistarplus.es
+```
+
+### 瑞士区
+
+Sky
+```
+sky.ch
+zahs.tv
+```
+
+### 荷兰区
+
+NPO Start
+```
+npo.nl
+```
+
+Videoland
+```
+videoland.com
+```
+
+### 俄罗斯区
+
+Amediateka
+```
+amediateka.ru
+```
+
+MEGOGO
+```
+megogo.net
+playfamily.ru
+```
+
 ### 北美地区
 
 Acorn TV
-
 ```
 acorn.tv
 boltacorn1-a.akamaihd.net
@@ -478,13 +901,14 @@ d1gqkepxkcxgvm.cloudfront.net
 rlje.net
 ```
 
-Britbox
+Star Plus
 ```
-britbox.com
-vod-dash-ww-live.akamaized.net
-vod-dash-ntham-comm-live.akamaized.net
-bbci.co.uk
-bbc.co.uk
+starplus.com
+starott.com
+star.api.edge.bamgrid.com
+star.connections.edge.bamgrid.com
+star.content.edge.bamgrid.com
+star.playback.edge.bamgrid.com
 ```
 
 ### 美国区
@@ -492,6 +916,8 @@ bbc.co.uk
 ABC
 ```
 abc.com
+edgeatg.com
+go.com
 ```
 
 A&E TV
@@ -511,14 +937,11 @@ CBS
 ```
 cbs.com
 cbsaavideo.com
+cbsi.com
 cbsivideo.com
 cbsi.live.ott.irdeto.com
-```
-
-Cinemax
-```
-hbo.com
-play.maxgo.com
+cbsplaylistserver.aws.syncbak.com
+cbsservice.aws.syncbak.com
 ```
 
 Crackle
@@ -545,9 +968,12 @@ www.cwseed.com
 
 Discovery Plus
 ```
+discovery.com
 discoveryplus.com
+discoveryplus.co.uk
 us1-prod.api2.branch.io
 us1-prod-direct.disco-api.com
+uplynk.com
 ```
 
 Disney Now
@@ -571,28 +997,42 @@ epixvpp-vh.akamaihd.net
 
 ESPN
 ```
-espn.com
-espncdn.com
 espn.api.edge.bamgrid.com
+espn.co.uk
+espn.com
+espn.net
+espncdn.com
+watchespn.com
+```
+
+F1TV
+```
+f1prodlive.akamaized.net
+d2n9h2wits23hf.cloudfront.net
+f1esports.com
+f1manager.com
+f1play.com
+formula1.com
 ```
 
 Fox Now & Fox News & Fox Sports
 ```
 b7tp47v2nb3x-a.akamaihd.net
-d1fkab2qkb5768.cloudfront.net
-d2yyd1h5u9mauk.cloudfront.net
-d3vxlq79yira0y.cloudfront.net
 eycvfqaaaiajsjqacqdaaayaabqsqxwo-pwluii-a58d71feb-clienttons-s.akamaihd.net
-fox.com
-foxdcg.com
-foxnews.com
 foxnewsplayer-a.akamaihd.net
-foxsports.com
-go-mpulse.net
-theplatform.com
 tiiqkzix37d2wyjil3ha-pwluii-d7116965a-clientnsv4-s.akamaihd.net
 trial-eum-clientnsv4-s.akamaihd.net
 trial-eum-clienttons-s.akamaihd.net
+foxvideo.akamaized.net
+d1fkab2qkb5768.cloudfront.net
+d2yyd1h5u9mauk.cloudfront.net
+d3vxlq79yira0y.cloudfront.net
+fox.com
+foxdcg.com
+foxnews.com
+foxsports.com
+go-mpulse.net
+theplatform.com
 uplynk.com
 ```
 
@@ -606,12 +1046,6 @@ Fubo TV
 fubo.tv
 ```
 
-Funimation
-```
-funimation.com
-funimationsvc.com
-```
-
 FX Networks
 ```
 fxnetworks.com
@@ -622,11 +1056,15 @@ Hbo Go & Max
 hbo.com
 hbogo.com
 hbomax.com
+hbomaxcdn.com
 hbonow.com
+max.com
+maxgo.com
 ```
 
 Hulu
 ```
+assetshuluimcom-a.akamaihd.net
 hulu.com
 huluim.com
 hulustream.com
@@ -645,6 +1083,7 @@ kocowa.com
 Paramount+
 ```
 paramountplus.com
+pplusstatic.com
 ```
 
 PBS
@@ -655,6 +1094,7 @@ pbs.org
 Peacock
 ```
 peacocktv.com
+peacock.com
 ```
 
 Philo
@@ -681,12 +1121,16 @@ edge.api.brightcove.com
 players.brightcove.net
 sho.com
 showtime.com
+showtimeanytime.com
 ```
 
 SlingTV
 ```
-sling.com
+dishworld.com
+movenetworks.com
 movetv.com
+sling.com
+slinginternational.com
 ```
 
 Starz
@@ -711,6 +1155,7 @@ onetrust.com
 
 Maths Spot
 ```
+mathsspot.com
 now.gg
 ```
 
@@ -728,6 +1173,13 @@ nationalgeographic.com
 NBA TV
 ```
 nba.com
+neulion-a.akamaihd.net
+neulionqos-a.akamaihd.net
+nlnbamdnyc-a.akamaihd.net
+nbanlds19vod.akamaized.net
+lion-nba-msl.akamaized.net
+watchnba.cdnfastly.endeavorstreaming.net
+neulion.com
 ```
 
 NBC
@@ -742,7 +1194,6 @@ NFL Plus
 ```
 nfl.com
 ```
-
 
 USA Network & MSNBC & syfy
 ```
@@ -794,15 +1245,39 @@ go-mpulse.net
 
 ### 澳大利亚区
 
+7 Plus
+```
+7plus.com.au
+7plus-sevennetwork.akamaized.net
+npc-live-sevennetwork.akamaized.net
+cdn.7livecloud.io
+```
+
 9Now
 ```
 9cdn.net
-9now-livestreams.akamaized.net
+9nation.com.au
+9news.com.au
 9now.com.au
-edge.api.brightcove.com
-nine.com.au
+9now-livestreams.akamaized.net
 p-9now.akamaized.net
+edge.api.brightcove.com
+freeviewplus.net.au
+mi9.com.au
+mi9cdn.com
+nine.com.au
+nineentertainment.com.au
+nineentertainmentco.com.au
+ninemediaroom.com.au
+ninemsn.com.au
 static9.net.au
+```
+
+10 Play
+```
+10play.com.au
+cbsi.video
+d25m2gzplgnf0.cloudfront.net
 ```
 
 ABC-iView
@@ -816,6 +1291,11 @@ iview-vod.akamaized.net
 abc-cdn.net.au
 ```
 
+Binge
+```
+streamotion.com.au
+```
+
 DocPlay
 ```
 docplay.com
@@ -825,10 +1305,57 @@ ff1be285-madman-com-au.akamaized.net
 879ed873-madman-com-au.akamaized.net
 ```
 
+Optus
+```
+93e30b04-drm-widevine-licensing.axprod.net
+d3rj5p7u4c4icq.cloudfront.net
+optus.com.au
+optusdigital.com
+optusnet.com.au
+optussport.tv
+optusvideo.tv
+```
+
+SBS on Demand
+```
+sbs-live-dai.akamaized.net
+sbs-live.akamaized.net
+videocdn-sbs.akamaized.net
+sbsvoddai-vh.akamaihd.net
+sbsvodns-vh.akamaihd.net
+sbsvodns-vh.akamaihd.net
+sbs.com.au
+sbsod.com
+```
+
 Stan
 ```
 stan.com.au
 stan.video
 streamcoimg-a.akamaihd.net
--stan.akamazed.net
+live01-stan.akamazed.net
+live02-stan.akamazed.net
+```
+
+### 新西兰区
+
+Maori TV
+```
+edge.api.brightcove.com
+maoritelevision.com
+```
+
+Neon TV
+```
+neontv.co.nz
+```
+
+Sky GO NZ
+```
+sky.co.nz
+```
+
+ThreeNow
+```
+fullscreen.nz
 ```
