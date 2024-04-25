@@ -65,6 +65,13 @@ DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,hotstar.com
 DOMAIN-SUFFIX,hotstarext.com
 
+DOMAIN-SUFFIX,71.am
+DOMAIN-SUFFIX,gitv.tv
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,iqiyipic.com
+DOMAIN-SUFFIX,iq.com
+DOMAIN-SUFFIX,qy.net
+
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
@@ -165,17 +172,26 @@ DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,youtubei.googleapis.com
 DOMAIN-SUFFIX,yt3.ggpht.com
 
+DOMAIN,p-bstarstatic.akamaized.net
+DOMAIN,upos-bstar-mirrorakam.akamaized.net
+DOMAIN,upos-bstar1-mirrorakam.akamaized.net
+DOMAIN,upos-hz-mirrorakam.akamaized.net
 DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,bilibilicomics.com
 DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biligame.net
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,bilivideo.cn
+DOMAIN-SUFFIX,bstarstatic.com
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,b23.tv
 DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,biliintl.co
+DOMAIN-SUFFIX,biliintl.com
 
 DOMAIN,foxsports01-i.akamaihd.net
 DOMAIN,foxsports02-i.akamaihd.net
@@ -201,13 +217,6 @@ DOMAIN,hbolb.onwardsmg.com
 DOMAIN-SUFFIX,hbogoasia.com
 DOMAIN-SUFFIX,hbogoasia.hk
 DOMAIN,wmff.warnermediacdn.com
-
-DOMAIN-SUFFIX,71.am
-DOMAIN-SUFFIX,gitv.tv
-DOMAIN-SUFFIX,iqiyi.com
-DOMAIN-SUFFIX,iqiyipic.com
-DOMAIN-SUFFIX,iq.com
-DOMAIN-SUFFIX,qy.net
 
 DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,tvb.com

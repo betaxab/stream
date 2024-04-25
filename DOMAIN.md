@@ -125,6 +125,16 @@ hotstar.com
 hotstarext.com
 ```
 
+iQIYI
+```
+71.am
+gitv.tv
+iqiyi.com
+iqiyipic.com
+iq.com
+qy.net
+```
+
 Netflix
 ```
 fast.com
@@ -256,22 +266,33 @@ youtubei.googleapis.com
 yt3.ggpht.com
 ```
 
-### 香港区
+### 亚太地区
 
 Bilibili
 ```
+p-bstarstatic.akamaized.net
+upos-bstar-mirrorakam.akamaized.net
+upos-bstar1-mirrorakam.akamaized.net
+upos-hz-mirrorakam.akamaized.net
 bilibili.com
+bilibili.tv
+bilibilicomics.com
 biligame.com
 biligame.net
 bilivideo.com
 bilivideo.cn
+bstarstatic.com
 acgvideo.com
 hdslb.com
 acg.tv
 b23.tv
 biliapi.com
 biliapi.net
+biliintl.co
+biliintl.com
 ```
+
+### 香港区
 
 Fox+
 ```
@@ -303,17 +324,6 @@ hbolb.onwardsmg.com
 hbogoasia.com
 hbogoasia.hk
 wmff.warnermediacdn.com
-```
-
-iQIYI
-```
-71.am
-gitv.tv
-iqiyi.com
-iqiyipic.com
-iq.com
-qy.net
-
 ```
 
 myTV SUPER
