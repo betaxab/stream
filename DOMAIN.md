@@ -292,20 +292,7 @@ biliintl.co
 biliintl.com
 ```
 
-### 香港区
-
-Fox+
-```
-foxsports01-i.akamaihd.net
-foxsports02-i.akamaihd.net
-foxsports03-i.akamaihd.net
-cdn-fox-networks-group-green.akamaized.net
-staticasiafox.akamaized.net
-d3cv4a9a9wh0bt.cloudfront.net
-foxplus.com
-```
-
-HBO Go
+HBO Go Asia
 ```
 bcbolthboa-a.akamaihd.net
 hboasia1-i.akamaihd.net
@@ -320,11 +307,34 @@ players.brightcove.net
 cf-images.ap-southeast-1.prod.boltdns.net
 dai3fd1oh325y.cloudfront.net
 hbounify-prod.evergent.com
-hbolb.onwardsmg.com
+hbogo.co.th
+hbogo.eu
 hbogoasia.com
 hbogoasia.hk
+hbogoasia.id
+hbogoasia.ph
+hbogoasia.sg
+hbogoasia.tw
+now-ashare.com
+now-tv.com
+now.com.hk
+nowe.com
+nowe.hk
+hbolb.onwardsmg.com
 wmff.warnermediacdn.com
 ```
+
+Viu
+```
+d1k2us671qcoau.cloudfront.net
+d2anahhhmp1ffz.cloudfront.net
+dfp6rglgjqszk.cloudfront.net
+viu.now.com
+viu.com
+viu.tv
+```
+
+### 香港区
 
 myTV SUPER
 ```
@@ -334,18 +344,12 @@ tvb.com
 
 Now E
 ```
+now-ashare.com
+now-tv.com
+now.com.hk
 nowe.com
+nowe.hk
 nowestatic.com
-```
-
-Viu
-```
-d1k2us671qcoau.cloudfront.net
-d2anahhhmp1ffz.cloudfront.net
-dfp6rglgjqszk.cloudfront.net
-api.viu.now.com
-viu.com
-viu.tv
 ```
 
 ### 台湾区
