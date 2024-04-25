@@ -419,12 +419,6 @@ myvideo.net.tw
 4gtvpcvod-cds.cdn.hinet.net
 ```
 
-台湾好
-```
-hamifans.emome.net
-skyking.com.tw
-```
-
 ### 日本区
 
 AbemaTV
