@@ -300,6 +300,9 @@ DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,dmmapis.com
 
+DOMAIN-SUFFIX,erogamescape.dyndns.org
+DOMAIN-SUFFIX,erogamescape.org
+
 DOMAIN-SUFFIX,fujitv.co.jp
 DOMAIN-SUFFIX,stream.ne.jp
 
@@ -360,11 +363,6 @@ DOMAIN-SUFFIX,afreecatv.com
 DOMAIN-SUFFIX,coupangplay.com
 
 DOMAIN-SUFFIX,kbs.co.kr
-
-DOMAIN-SUFFIX,naver.com
-DOMAIN-SUFFIX,navercorp.com
-DOMAIN-SUFFIX,pstatic.net
-DOMAIN-SUFFIX,smartmediarep.com
 
 DOMAIN-SUFFIX,tving.com
 

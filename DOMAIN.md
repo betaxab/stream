@@ -436,6 +436,7 @@ abema.io
 abema.tv
 ameba.jp
 api-abematv.bucketeer.jp
+go-mpulse.net
 hayabusa.io
 hayabusa.media
 ```
@@ -456,6 +457,12 @@ dmm-extension.com
 dmm.co.jp
 dmm.com
 dmmapis.com
+```
+
+ErogameScape
+```
+erogamescape.dyndns.org
+erogamescape.org
 ```
 
 Fuji TV
@@ -585,14 +592,6 @@ coupangplay.com
 KBS Domestic
 ```
 kbs.co.kr
-```
-
-Naver TV
-```
-naver.com
-navercorp.com
-pstatic.net
-smartmediarep.com
 ```
 
 Tving
