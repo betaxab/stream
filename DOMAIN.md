@@ -177,6 +177,11 @@ static-qobuz.com
 geolocation.onetrust.com
 ```
 
+Reddit
+```
+reddit.com
+```
+
 Sentanta Sports
 ```
 ux1kpaebv0.execute-api.eu.west-1.amazonaws.com
@@ -254,6 +259,11 @@ tvbeventpower.com.hk
 tvbusa.com
 tvbweekly.com
 tvmedia.net.au
+```
+
+Wikipedia
+```
+wikipedia.org
 ```
 
 Youtube Premium

@@ -104,6 +104,8 @@ DOMAIN,streaming-qobuz-sec.akamaized.net
 DOMAIN-SUFFIX,qobuz.com
 DOMAIN-SUFFIX,static-qobuz.com
 
+DOMAIN-SUFFIX,reddit.com
+
 DOMAIN,ux1kpaebv0.execute-api.eu.west-1.amazonaws.com
 DOMAIN,1ok961aaca.execute-api.eu-west-1.amazonaws.com
 DOMAIN,imggaming.s3-eu-west-1.amazonaws.com
@@ -164,6 +166,8 @@ DOMAIN-SUFFIX,tvbeventpower.com.hk
 DOMAIN-SUFFIX,tvbusa.com
 DOMAIN-SUFFIX,tvbweekly.com
 DOMAIN-SUFFIX,tvmedia.net.au
+
+DOMAIN-SUFFIX,wikipedia.org
 
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googlevideo.com
