@@ -408,6 +408,8 @@ DOMAIN-SUFFIX,voot.com
 
 DOMAIN-SUFFIX,mxplayer.in
 
+DOMAIN,sonynondrmvod.akamaized.net
+DOMAIN,d2r1yp2w7bby2u.cloudfront.net
 DOMAIN-SUFFIX,sonyliv.com
 
 DOMAIN-SUFFIX,tataplay.com
@@ -520,6 +522,9 @@ DOMAIN-SUFFIX,abc.com
 DOMAIN-SUFFIX,aetv.com
 DOMAIN-SUFFIX,aetnd.com
 DOMAIN-SUFFIX,sp-prod.net
+DOMAIN,qaservicesaetn-a.akamaihd.net
+DOMAIN,servicesaetn-a.akamaihd.net
+DOMAIN-SUFFIX,aetndigital.com
 
 DOMAIN-SUFFIX,atttvnow.com
 
@@ -558,6 +563,7 @@ DOMAIN-SUFFIX,encoretvb.com
 DOMAIN-SUFFIX,epixhls.akamaized.net
 DOMAIN-SUFFIX,epixvpp-vh.akamaihd.net
 DOMAIN-SUFFIX,epix.com
+DOMAIN-SUFFIX,mgmplus.com
 
 DOMAIN,espn.api.edge.bamgrid.com
 DOMAIN-SUFFIX,espn.co.uk
@@ -594,6 +600,7 @@ DOMAIN-SUFFIX,fubo.tv
 
 DOMAIN-SUFFIX,fxnetworks.com
 
+DOMAIN-SUFFIX,discomax.com
 DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hbogo.com
 DOMAIN-SUFFIX,hbomax.com
@@ -766,6 +773,7 @@ DOMAIN,streamcoimg-a.akamaihd.net
 DOMAIN-KEYWORD,-stan.akamazed.net
 
 DOMAIN-SUFFIX,maoritelevision.com
+DOMAIN-SUFFIX,maoriplus.co.nz
 
 DOMAIN-SUFFIX,neontv.co.nz
 

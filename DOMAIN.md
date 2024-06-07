@@ -707,6 +707,9 @@ mxplayer.in
 
 SonyLiv
 ```
+sonynondrmvod.akamaized.net
+d2r1yp2w7bby2u.cloudfront.net
+go-mpulse.net
 sonyliv.com
 ```
 
@@ -937,6 +940,10 @@ A&E TV
 aetv.com
 aetnd.com
 sp-prod.net
+qaservicesaetn-a.akamaihd.net
+servicesaetn-a.akamaihd.net
+aetndigital.com
+theplatform.com
 ```
 
 Directv Stream
@@ -999,11 +1006,13 @@ api.brightcove.com
 encoretvb.com
 ```
 
-EPIX
+MGM Plus
 ```
 epixhls.akamaized.net
 epixvpp-vh.akamaihd.net
 epix.com
+onetrust.com
+mgmplus.com
 ```
 
 ESPN
@@ -1064,6 +1073,7 @@ fxnetworks.com
 
 Hbo Go & Max
 ```
+discomax.com
 hbo.com
 hbogo.com
 hbomax.com
@@ -1251,6 +1261,7 @@ Crave TV
 ```
 crave.ca
 go-mpulse.net
+onetrust.com
 9c9media.com
 ```
 
@@ -1354,6 +1365,7 @@ Maori TV
 ```
 edge.api.brightcove.com
 maoritelevision.com
+maoriplus.co.nz
 ```
 
 Neon TV
