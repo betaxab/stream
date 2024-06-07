@@ -949,6 +949,7 @@ theplatform.com
 Directv Stream
 ```
 atttvnow.com
+directv.com
 ```
 
 CBS
