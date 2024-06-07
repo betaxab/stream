@@ -1177,16 +1177,6 @@ schange.com
 seachange.com
 ```
 
-Showtime
-```
-bcboltshowtime1-a.akamaized.net
-api.brightcove.com
-players.brightcove.net
-sho.com
-showtime.com
-showtimeanytime.com
-```
-
 Shudder
 ```
 shudder.com
