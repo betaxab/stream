@@ -834,11 +834,6 @@ Molotov
 molotov.tv
 ```
 
-Salto
-```
-salto.fr
-```
-
 ### 德国区
 
 Joyn
