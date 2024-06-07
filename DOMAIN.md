@@ -762,6 +762,11 @@ shahid.net
 
 #### 欧洲地区
 
+MEGOGO
+```
+megogo.net
+```
+
 NLZIET
 ```
 nlziet.nl
@@ -919,22 +924,7 @@ Amediateka
 amediateka.ru
 ```
 
-MEGOGO
-```
-megogo.net
-playfamily.ru
-```
-
 ### 北美地区
-Star Plus
-```
-starplus.com
-starott.com
-star.api.edge.bamgrid.com
-star.connections.edge.bamgrid.com
-star.content.edge.bamgrid.com
-star.playback.edge.bamgrid.com
-```
 
 ### 美国区
 

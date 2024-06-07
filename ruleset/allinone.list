@@ -434,6 +434,8 @@ DOMAIN,geo-id-media-001-vidio-com.akamaized.net
 DOMAIN-SUFFIX,mbc.net
 DOMAIN-SUFFIX,shahid.net
 
+DOMAIN-SUFFIX,megogo.net
+
 DOMAIN-SUFFIX,nlziet.nl
 
 DOMAIN-SUFFIX,rakuten.tv
@@ -513,16 +515,6 @@ DOMAIN-SUFFIX,npo.nl
 DOMAIN-SUFFIX,videoland.com
 
 DOMAIN-SUFFIX,amediateka.ru
-
-DOMAIN-SUFFIX,megogo.net
-DOMAIN-SUFFIX,playfamily.ru
-
-DOMAIN-SUFFIX,starplus.com
-DOMAIN-SUFFIX,starott.com
-DOMAIN-SUFFIX,star.api.edge.bamgrid.com
-DOMAIN-SUFFIX,star.connections.edge.bamgrid.com
-DOMAIN-SUFFIX,star.content.edge.bamgrid.com
-DOMAIN-SUFFIX,star.playback.edge.bamgrid.com
 
 DOMAIN-SUFFIX,abc.com
 
