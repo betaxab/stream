@@ -49,6 +49,17 @@ seachange.com
 
 ### 全球流媒体
 
+Acorn TV
+```
+acorn.tv
+boltacorn1-a.akamaihd.net
+rlje-static-assets.s3.amazonaws.com
+players.brightcove.net
+edge.api.brightcove.com
+d1gqkepxkcxgvm.cloudfront.net
+rlje.net
+```
+
 Amazon Prime Video
 ```
 d1v5ir2lpwr8os.cloudfront.net
@@ -107,6 +118,17 @@ indazn.com
 indaznlab.com
 intercom.io
 dca-ll-livedazn-dznlivejp.s.llnwi.net
+```
+
+Discovery Plus
+```
+discovery.com
+discoveryplus.com
+discoveryplus.co.uk
+discoveryplus.in
+disco-api.com
+us1-prod.api2.branch.io
+uplynk.com
 ```
 
 Disney Plus
@@ -904,18 +926,6 @@ playfamily.ru
 ```
 
 ### 北美地区
-
-Acorn TV
-```
-acorn.tv
-boltacorn1-a.akamaihd.net
-rlje-static-assets.s3.amazonaws.com
-players.brightcove.net
-edge.api.brightcove.com
-d1gqkepxkcxgvm.cloudfront.net
-rlje.net
-```
-
 Star Plus
 ```
 starplus.com
@@ -982,16 +992,6 @@ edge.cwtv-vod-ext.top.comcast.net
 edge.cwtv-egress.top.comcast.net
 thecwvideo.com
 www.cwseed.com
-```
-
-Discovery Plus
-```
-discovery.com
-discoveryplus.com
-discoveryplus.co.uk
-us1-prod.api2.branch.io
-us1-prod-direct.disco-api.com
-uplynk.com
 ```
 
 Disney Now

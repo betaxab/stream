@@ -10,6 +10,14 @@ DOMAIN-SUFFIX,players.brightcove.net
 DOMAIN-SUFFIX,onetrust.com
 DOMAIN-SUFFIX,seachange.com
 
+DOMAIN-SUFFIX,acorn.tv
+DOMAIN,boltacorn1-a.akamaihd.net
+DOMAIN-SUFFIX,rlje-static-assets.s3.amazonaws.com
+# players.brightcove.net
+# edge.api.brightcove.com
+DOMAIN,d1gqkepxkcxgvm.cloudfront.net
+DOMAIN-SUFFIX,rlje.net
+
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 DOMAIN,d22qjgkvxw22r6.cloudfront.net
 DOMAIN,d25xi40x97liuc.cloudfront.net
@@ -55,6 +63,13 @@ DOMAIN-SUFFIX,indazn.com
 DOMAIN-SUFFIX,indaznlab.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net
+
+DOMAIN-SUFFIX,discovery.com
+DOMAIN-SUFFIX,discoveryplus.com
+DOMAIN-SUFFIX,discoveryplus.co.uk
+DOMAIN-SUFFIX,discoveryplus.in
+DOMAIN-SUFFIX,us1-prod.api2.branch.io
+DOMAIN-SUFFIX,disco-api.com
 
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,disney-plus.net
@@ -401,8 +416,6 @@ DOMAIN-SUFFIX,mytv.vn
 
 DOMAIN-SUFFIX,tv360.vn
 
-DOMAIN-SUFFIX,discoveryplus.in
-
 DOMAIN-SUFFIX,jiocinema.com
 DOMAIN-SUFFIX,voot.com
 
@@ -504,12 +517,6 @@ DOMAIN-SUFFIX,amediateka.ru
 DOMAIN-SUFFIX,megogo.net
 DOMAIN-SUFFIX,playfamily.ru
 
-DOMAIN-SUFFIX,acorn.tv
-DOMAIN-SUFFIX,boltacorn1-a.akamaihd.net
-DOMAIN-SUFFIX,rlje-static-assets.s3.amazonaws.com
-DOMAIN-SUFFIX,d1gqkepxkcxgvm.cloudfront.net
-DOMAIN-SUFFIX,rlje.net
-
 DOMAIN-SUFFIX,starplus.com
 DOMAIN-SUFFIX,starott.com
 DOMAIN-SUFFIX,star.api.edge.bamgrid.com
@@ -548,12 +555,6 @@ DOMAIN-SUFFIX,edge.cwtv-vod-ext.top.comcast.net
 DOMAIN-SUFFIX,edge.cwtv-egress.top.comcast.net
 DOMAIN-SUFFIX,thecwvideo.com
 DOMAIN-SUFFIX,www.cwseed.com
-
-DOMAIN-SUFFIX,discovery.com
-DOMAIN-SUFFIX,discoveryplus.com
-DOMAIN-SUFFIX,discoveryplus.co.uk
-DOMAIN-SUFFIX,us1-prod.api2.branch.io
-DOMAIN-SUFFIX,us1-prod-direct.disco-api.com
 
 DOMAIN-SUFFIX,disneynow.com
 
@@ -665,9 +666,7 @@ DOMAIN-SUFFIX,slinginternational.com
 DOMAIN-SUFFIX,starz.com
 
 DOMAIN-SUFFIX,tlc.com
-DOMAIN,global-prod.disco-api.com
-DOMAIN,partner-logos-prod.disco-api.com
-DOMAIN,us1-prod-images.disco-api.com
+# DOMAIN-SUFFIX,disco-api.com
 
 DOMAIN-SUFFIX,tve-static-syfy.akamaized.net
 DOMAIN-SUFFIX,tve-static-telemundo.akamaized.net
