@@ -83,6 +83,12 @@ pv-cdn.net
 video.a2z.com
 ```
 
+AMC
+```
+amcnetworks.com
+amcplus.com
+```
+
 Britbox
 ```
 britbox.com
@@ -157,6 +163,24 @@ iq.com
 qy.net
 ```
 
+Maths Spot
+```
+mathsspot.com
+now.gg
+```
+
+NBA TV
+```
+nba.com
+neulion-a.akamaihd.net
+neulionqos-a.akamaihd.net
+nlnbamdnyc-a.akamaihd.net
+nbanlds19vod.akamaized.net
+lion-nba-msl.akamaized.net
+watchnba.cdnfastly.endeavorstreaming.net
+neulion.com
+```
+
 Netflix
 ```
 fast.com
@@ -191,6 +215,12 @@ oaistatic.com
 oaiusercontent.com
 ```
 
+Paramount+
+```
+paramountplus.com
+pplusstatic.com
+```
+
 Qobuz
 ```
 streaming-qobuz-sec.akamaized.net
@@ -214,6 +244,12 @@ diceplatform.com
 imggaming.com
 pndsn.com
 setantasports.com
+```
+
+Shudder
+```
+shudder.com
+onetrust.com
 ```
 
 SonyLiv
@@ -634,6 +670,14 @@ KBS Domestic
 kbs.co.kr
 ```
 
+Naver TV
+```
+naver.com
+navercorp.com
+pstatic.net
+smartmediarep.com
+```
+
 Tving
 ```
 tving.com
@@ -755,7 +799,7 @@ mbc.net
 shahid.net
 ```
 
-#### 欧洲地区
+### 欧洲地区
 
 MEGOGO
 ```
@@ -921,6 +965,28 @@ amediateka.ru
 
 ### 北美地区
 
+Fubo TV
+```
+fubo.tv
+```
+
+KOCOWA
+```
+kocowa.com
+```
+
+TLC Go
+```
+tlc.com
+disco-api.com
+onetrust.com
+```
+
+Pluto TV
+```
+pluto.tv
+```
+
 ### 美国区
 
 ABC
@@ -939,12 +1005,6 @@ qaservicesaetn-a.akamaihd.net
 servicesaetn-a.akamaihd.net
 aetndigital.com
 theplatform.com
-```
-
-Directv Stream
-```
-atttvnow.com
-directv.com
 ```
 
 CBS
@@ -980,6 +1040,12 @@ thecwvideo.com
 www.cwseed.com
 ```
 
+Directv Stream
+```
+atttvnow.com
+directv.com
+```
+
 Disney Now
 ```
 disneynow.com
@@ -992,18 +1058,9 @@ api.brightcove.com
 encoretvb.com
 ```
 
-MGM Plus
-```
-epixhls.akamaized.net
-epixvpp-vh.akamaihd.net
-epix.com
-onetrust.com
-mgmplus.com
-```
-
 ESPN
 ```
-espn.api.edge.bamgrid.com
+bamgrid.com
 espn.co.uk
 espn.com
 espn.net
@@ -1047,11 +1104,6 @@ Freeform
 freeform.com
 ```
 
-Fubo TV
-```
-fubo.tv
-```
-
 FX Networks
 ```
 fxnetworks.com
@@ -1082,15 +1134,18 @@ KBS America
 kbs.co.kr
 ```
 
-KOCOWA
+Meta AI
 ```
-kocowa.com
+meta.ai
 ```
 
-Maths Spot
+MGM Plus
 ```
-mathsspot.com
-now.gg
+epixhls.akamaized.net
+epixvpp-vh.akamaihd.net
+epix.com
+onetrust.com
+mgmplus.com
 ```
 
 MTV
@@ -1104,18 +1159,6 @@ National Geographic
 nationalgeographic.com
 ```
 
-NBA TV
-```
-nba.com
-neulion-a.akamaihd.net
-neulionqos-a.akamaihd.net
-nlnbamdnyc-a.akamaihd.net
-nbanlds19vod.akamaized.net
-lion-nba-msl.akamaized.net
-watchnba.cdnfastly.endeavorstreaming.net
-neulion.com
-```
-
 NBC
 ```
 nbcuadops-vh.akamaihd.net
@@ -1127,12 +1170,6 @@ nbcuni.com
 NFL Plus
 ```
 nfl.com
-```
-
-Paramount+
-```
-paramountplus.com
-pplusstatic.com
 ```
 
 PBS
@@ -1151,22 +1188,11 @@ Philo
 philo.com
 ```
 
-Pluto TV
-```
-pluto.tv
-```
-
 Popcornflix
 ```
 popcornflix.com
 schange.com
 seachange.com
-```
-
-Shudder
-```
-shudder.com
-onetrust.com
 ```
 
 SlingTV
@@ -1181,15 +1207,6 @@ slinginternational.com
 Starz
 ```
 starz.com
-```
-
-TLC Go
-```
-tlc.com
-global-prod.disco-api.com
-partner-logos-prod.disco-api.com
-us1-prod-images.disco-api.com
-onetrust.com
 ```
 
 USA Network & MSNBC & syfy

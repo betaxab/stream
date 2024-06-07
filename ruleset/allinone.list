@@ -38,6 +38,9 @@ DOMAIN-SUFFIX,primevideo.com
 DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-SUFFIX,video.a2z.com
 
+DOMAIN-SUFFIX,amcnetworks.com
+DOMAIN-SUFFIX,amcplus.com
+
 DOMAIN-SUFFIX,britbox.com
 DOMAIN-SUFFIX,britbox.co.uk
 DOMAIN-SUFFIX,vod-dash-ww-live.akamaized.net
@@ -87,6 +90,18 @@ DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,iq.com
 DOMAIN-SUFFIX,qy.net
 
+DOMAIN-SUFFIX,mathsspot.com
+DOMAIN-SUFFIX,now.gg
+
+DOMAIN-SUFFIX,nba.com
+DOMAIN-SUFFIX,neulion-a.akamaihd.net
+DOMAIN-SUFFIX,neulionqos-a.akamaihd.net
+DOMAIN-SUFFIX,nlnbamdnyc-a.akamaihd.net
+DOMAIN-SUFFIX,nbanlds19vod.akamaized.net
+DOMAIN-SUFFIX,lion-nba-msl.akamaized.net
+DOMAIN-SUFFIX,watchnba.cdnfastly.endeavorstreaming.net
+DOMAIN-SUFFIX,neulion.com
+
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
@@ -115,6 +130,9 @@ DOMAIN,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 
+DOMAIN-SUFFIX,paramountplus.com
+DOMAIN-SUFFIX,pplusstatic.com
+
 DOMAIN,streaming-qobuz-sec.akamaized.net
 DOMAIN-SUFFIX,qobuz.com
 DOMAIN-SUFFIX,static-qobuz.com
@@ -129,6 +147,8 @@ DOMAIN-SUFFIX,diceplatform.com
 DOMAIN-SUFFIX,imggaming.com
 DOMAIN-SUFFIX,pndsn.com
 DOMAIN-SUFFIX,setantasports.com
+
+DOMAIN-SUFFIX,shudder.com
 
 DOMAIN,sonynondrmvod.akamaized.net
 DOMAIN,d2r1yp2w7bby2u.cloudfront.net
@@ -387,6 +407,11 @@ DOMAIN-SUFFIX,coupangplay.com
 
 DOMAIN-SUFFIX,kbs.co.kr
 
+DOMAIN-SUFFIX,naver.com
+DOMAIN-SUFFIX,navercorp.com
+DOMAIN-SUFFIX,pstatic.net
+DOMAIN-SUFFIX,smartmediarep.com
+
 DOMAIN-SUFFIX,tving.com
 
 DOMAIN-SUFFIX,watcha.com
@@ -516,6 +541,16 @@ DOMAIN-SUFFIX,videoland.com
 
 DOMAIN-SUFFIX,amediateka.ru
 
+DOMAIN-SUFFIX,fubo.tv
+
+DOMAIN-SUFFIX,kocowa.com
+
+DOMAIN-SUFFIX,tlc.com
+# DOMAIN-SUFFIX,disco-api.com
+# DOMAIN-SUFFIX,onetrust.com
+
+DOMAIN-SUFFIX,pluto.tv
+
 DOMAIN-SUFFIX,abc.com
 
 DOMAIN-SUFFIX,aetv.com
@@ -524,9 +559,7 @@ DOMAIN-SUFFIX,sp-prod.net
 DOMAIN,qaservicesaetn-a.akamaihd.net
 DOMAIN,servicesaetn-a.akamaihd.net
 DOMAIN-SUFFIX,aetndigital.com
-
-DOMAIN-SUFFIX,atttvnow.com
-DOMAIN-SUFFIX,directv.com
+# DOMAIN-SUFFIX,theplatform.com
 
 DOMAIN-SUFFIX,cbs.com
 DOMAIN-SUFFIX,cbsaavideo.com
@@ -549,17 +582,15 @@ DOMAIN-SUFFIX,edge.cwtv-egress.top.comcast.net
 DOMAIN-SUFFIX,thecwvideo.com
 DOMAIN-SUFFIX,www.cwseed.com
 
+DOMAIN-SUFFIX,atttvnow.com
+DOMAIN-SUFFIX,directv.com
+
 DOMAIN-SUFFIX,disneynow.com
 
 DOMAIN,bcbolt446c5271-a.akamaihd.net
 DOMAIN-SUFFIX,encoretvb.com
 
-DOMAIN-SUFFIX,epixhls.akamaized.net
-DOMAIN-SUFFIX,epixvpp-vh.akamaihd.net
-DOMAIN-SUFFIX,epix.com
-DOMAIN-SUFFIX,mgmplus.com
-
-DOMAIN,espn.api.edge.bamgrid.com
+# DOMAIN,bamgrid.com
 DOMAIN-SUFFIX,espn.co.uk
 DOMAIN-SUFFIX,espn.com
 DOMAIN-SUFFIX,espn.net
@@ -590,8 +621,6 @@ DOMAIN-SUFFIX,foxsports.com
 
 DOMAIN-SUFFIX,freeform.com
 
-DOMAIN-SUFFIX,fubo.tv
-
 DOMAIN-SUFFIX,fxnetworks.com
 
 DOMAIN-SUFFIX,discomax.com
@@ -608,24 +637,17 @@ DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,huluim.com
 DOMAIN-SUFFIX,hulustream.com
 
-DOMAIN-SUFFIX,kocowa.com
+DOMAIN-SUFFIX,meta.ai
 
-DOMAIN-SUFFIX,mathsspot.com
-DOMAIN-SUFFIX,now.gg
+DOMAIN-SUFFIX,epixhls.akamaized.net
+DOMAIN-SUFFIX,epixvpp-vh.akamaihd.net
+DOMAIN-SUFFIX,epix.com
+DOMAIN-SUFFIX,mgmplus.com
 
 DOMAIN-SUFFIX,mtv.com
 DOMAIN-SUFFIX,mtvnservices.com
 
 DOMAIN-SUFFIX,nationalgeographic.com
-
-DOMAIN-SUFFIX,nba.com
-DOMAIN-SUFFIX,neulion-a.akamaihd.net
-DOMAIN-SUFFIX,neulionqos-a.akamaihd.net
-DOMAIN-SUFFIX,nlnbamdnyc-a.akamaihd.net
-DOMAIN-SUFFIX,nbanlds19vod.akamaized.net
-DOMAIN-SUFFIX,lion-nba-msl.akamaized.net
-DOMAIN-SUFFIX,watchnba.cdnfastly.endeavorstreaming.net
-DOMAIN-SUFFIX,neulion.com
 
 DOMAIN-SUFFIX,nbcuadops-vh.akamaihd.net
 DOMAIN-SUFFIX,nbc.co
@@ -634,9 +656,6 @@ DOMAIN-SUFFIX,nbcuni.com
 
 DOMAIN-SUFFIX,nfl.com
 
-DOMAIN-SUFFIX,paramountplus.com
-DOMAIN-SUFFIX,pplusstatic.com
-
 DOMAIN-SUFFIX,pbs.org
 
 DOMAIN-SUFFIX,peacocktv.com
@@ -644,11 +663,7 @@ DOMAIN-SUFFIX,peacock.com
 
 DOMAIN-SUFFIX,philo.com
 
-DOMAIN-SUFFIX,pluto.tv
-
 DOMAIN-SUFFIX,popcornflix.com
-
-DOMAIN-SUFFIX,shudder.com
 
 DOMAIN-SUFFIX,dishworld.com
 DOMAIN-SUFFIX,movenetworks.com
@@ -657,9 +672,6 @@ DOMAIN-SUFFIX,sling.com
 DOMAIN-SUFFIX,slinginternational.com
 
 DOMAIN-SUFFIX,starz.com
-
-DOMAIN-SUFFIX,tlc.com
-# DOMAIN-SUFFIX,disco-api.com
 
 DOMAIN-SUFFIX,tve-static-syfy.akamaized.net
 DOMAIN-SUFFIX,tve-static-telemundo.akamaized.net
