@@ -497,6 +497,11 @@ jcom.co.jp
 zaq.ne.jp
 ```
 
+Kancolle
+```
+kan-colle.com
+```
+
 Karaoke@DAM
 ```
 clubdam.com
@@ -575,11 +580,6 @@ Videomarket
 vmdash-cenc.akamaized.net
 videomarket.jp
 img.vm-movie.jp
-```
-
-Worldflipper
-```
-worldflipper.jp
 ```
 
 WOWOW

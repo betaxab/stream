@@ -320,6 +320,8 @@ DOMAIN,yb.uncn.jp
 DOMAIN-SUFFIX,jcom.co.jp
 DOMAIN-SUFFIX,zaq.ne.jp
 
+DOMAIN-SUFFIX,kan-colle.com
+
 DOMAIN-SUFFIX,clubdam.com
 
 DOMAIN-SUFFIX,konosubafd.jp
@@ -357,8 +359,6 @@ DOMAIN-SUFFIX,nxtv.jp
 DOMAIN,vmdash-cenc.akamaized.net
 DOMAIN-SUFFIX,videomarket.jp
 DOMAIN,img.vm-movie.jp
-
-DOMAIN-SUFFIX,worldflipper.jp
 
 DOMAIN-SUFFIX,wowow.co.jp
 
