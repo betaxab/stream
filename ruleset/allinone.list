@@ -13,8 +13,8 @@ DOMAIN-SUFFIX,seachange.com
 DOMAIN-SUFFIX,acorn.tv
 DOMAIN,boltacorn1-a.akamaihd.net
 DOMAIN-SUFFIX,rlje-static-assets.s3.amazonaws.com
-# players.brightcove.net
-# edge.api.brightcove.com
+# DOMAIN-SUFFIX,players.brightcove.net
+# DOMAIN-SUFFIX,edge.api.brightcove.com
 DOMAIN,d1gqkepxkcxgvm.cloudfront.net
 DOMAIN-SUFFIX,rlje.net
 
@@ -129,6 +129,10 @@ DOMAIN-SUFFIX,diceplatform.com
 DOMAIN-SUFFIX,imggaming.com
 DOMAIN-SUFFIX,pndsn.com
 DOMAIN-SUFFIX,setantasports.com
+
+DOMAIN,sonynondrmvod.akamaized.net
+DOMAIN,d2r1yp2w7bby2u.cloudfront.net
+DOMAIN-SUFFIX,sonyliv.com
 
 DOMAIN,audio4-ak-spotify-com.akamaized.net
 DOMAIN,heads-ak-spotify-com.akamaized.net
@@ -420,10 +424,6 @@ DOMAIN-SUFFIX,jiocinema.com
 DOMAIN-SUFFIX,voot.com
 
 DOMAIN-SUFFIX,mxplayer.in
-
-DOMAIN,sonynondrmvod.akamaized.net
-DOMAIN,d2r1yp2w7bby2u.cloudfront.net
-DOMAIN-SUFFIX,sonyliv.com
 
 DOMAIN-SUFFIX,tataplay.com
 

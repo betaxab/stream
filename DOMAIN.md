@@ -216,6 +216,14 @@ pndsn.com
 setantasports.com
 ```
 
+SonyLiv
+```
+sonynondrmvod.akamaized.net
+d2r1yp2w7bby2u.cloudfront.net
+go-mpulse.net
+sonyliv.com
+```
+
 Spotify
 ```
 audio4-ak-spotify-com.akamaized.net
@@ -720,14 +728,6 @@ voot.com
 MXPlayer
 ```
 mxplayer.in
-```
-
-SonyLiv
-```
-sonynondrmvod.akamaized.net
-d2r1yp2w7bby2u.cloudfront.net
-go-mpulse.net
-sonyliv.com
 ```
 
 Tata Play
