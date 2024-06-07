@@ -711,11 +711,6 @@ tv360.vn
 
 ### 印度区
 
-Discovery Plus
-```
-discoveryplus.in
-```
-
 Jio Cinema
 ```
 jiocinema.com
