@@ -950,6 +950,7 @@ zahs.tv
 NPO Start
 ```
 npo.nl
+npoplayer.nl
 ```
 
 Videoland
