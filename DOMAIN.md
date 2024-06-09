@@ -603,11 +603,6 @@ nimg.jp
 socdm.com
 ```
 
-Paravi
-```
-paravi.jp
-```
-
 Project Sekai
 ```
 colorfulpalette.org
