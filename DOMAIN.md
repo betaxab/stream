@@ -620,6 +620,12 @@ radionikkei.jp
 smartstream.ne.jp
 ```
 
+Rakuten TV JP
+```
+nba.rakuten.co.jp
+tv.rakuten.co.jp
+```
+
 Telasa
 ```
 telasa.jp
