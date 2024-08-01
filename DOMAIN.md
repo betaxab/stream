@@ -93,6 +93,7 @@ Britbox
 ```
 britbox.com
 britbox.co.uk
+britboxinternational.com
 vod-dash-ww-live.akamaized.net
 vod-dash-ntham-comm-live.akamaized.net
 vod-hls-ntham-comm.live.akamaized.net
