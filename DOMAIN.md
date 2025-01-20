@@ -519,6 +519,11 @@ hayabusa.io
 hayabusa.media
 ```
 
+AnimeFesta
+```
+iowl.jp
+```
+
 Animestore
 ```
 animestore.docomo.ne.jp
