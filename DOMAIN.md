@@ -214,6 +214,7 @@ cdn.auth0.com
 openaiapi-site.azureedge.net
 oaistatic.com
 oaiusercontent.com
+sora.com
 ```
 
 Paramount+
