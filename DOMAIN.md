@@ -207,10 +207,11 @@ netflixdnstest8.com
 netflixdnstest9.com
 ```
 
-OpenAI
+OpenAI ChatGPT
 ```
 openai.com
 cdn.auth0.com
+chatgpt.com
 openaiapi-site.azureedge.net
 oaistatic.com
 oaiusercontent.com
