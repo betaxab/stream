@@ -1,6 +1,6 @@
 module github.com/aiocloud/stream
 
-go 1.24.6
+go 1.25.0
 
 require (
 	github.com/gin-gonic/gin v1.10.1
