@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Go
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v5
         with:
-          go-version: ^1.23
+          go-version: ^1.25
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -47,7 +47,7 @@ jobs:
           draft: false
           files: |
             release.zip
-          body: | 
+          body: |
             ## 更新日志
             * 将会很快更新
 
