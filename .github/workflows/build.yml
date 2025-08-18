@@ -18,40 +18,29 @@ jobs:
         shell: bash
         run: |
           bash build.sh
+          ls -al releases || true
 
       - name: Upload
         uses: actions/upload-artifact@v4
         with:
-          name: release
-          path: release
-
-      - name: Compress
-        if: startsWith(github.ref, 'refs/tags/')
-        shell: bash
-        run: |
-          zip -9 -r release.zip release
-
-      - name: Checksum
-        if: startsWith(github.ref, 'refs/tags/')
-        shell: bash
-        run: |
-          echo "CHECKSUM=$(sha256sum release.zip | awk '{print $1}')" >> $GITHUB_ENV
+          name: releases
+          path: |
+            releases/SHA256SUMS.txt
+            releases/stream-*.zip
 
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         if: startsWith(github.ref, 'refs/tags/')
         with:
           prerelease: true
           draft: false
+          generate_release_notes: false
+          fail_on_unmatched_files: true
           files: |
-            release.zip
+            releases/SHA256SUMS.txt
+            releases/stream-*.zip
           body: |
             ## 更新日志
             * 将会很快更新
-
-            ## 校验和
-            | 文件名 | SHA256 |
-            | :-- | :-- |
-            | release.zip | ${{ env.CHECKSUM }} |

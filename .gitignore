@@ -1,1 +1,4 @@
-release
+.DS_Store
+
+releases/
+stream.json
