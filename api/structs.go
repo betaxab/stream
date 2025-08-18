@@ -14,6 +14,7 @@ import (
 
 type Stream struct {
 	API    StreamAPI    `json:"api"`
+	Log    StreamLog     `json:"log"`
 	DNS    StreamDNS    `json:"dns"`
 	TCP    StreamTCP    `json:"tcp"`
 	Out    StreamOut    `json:"out"`
@@ -27,6 +28,10 @@ type StreamAPI struct {
 	Secret []string `json:"secret"`
 	IPv4   string   `json:"ipv4"`
 	IPv6   string   `json:"ipv6"`
+}
+
+type StreamLog struct {
+	OutputLog string `json:"output"`
 }
 
 type StreamDNS struct {

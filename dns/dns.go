@@ -3,12 +3,12 @@ package dns
 import (
 	"context"
 	"fmt"
-	"log"
 	"net"
 	"strings"
 	"time"
 
 	"github.com/aiocloud/stream/api"
+	"github.com/aiocloud/stream/log"
 	"github.com/miekg/dns"
 )
 
@@ -42,10 +42,10 @@ func Run() {
 	tcpSocket = &dns.Server{Net: "tcp", Addr: api.StreamData.DNS.Listen, Handler: mux}
 	udpSocket = &dns.Server{Net: "udp", Addr: api.StreamData.DNS.Listen, Handler: mux}
 
-	go func() { log.Fatalf("[Stream][DNS][TCP] %v", tcpSocket.ListenAndServe()) }()
-	go func() { log.Fatalf("[Stream][DNS][UDP] %v", udpSocket.ListenAndServe()) }()
+	go func() { log.Fatal("[Stream][DNS][TCP] Error:", tcpSocket.ListenAndServe()) }()
+	go func() { log.Fatal("[Stream][DNS][UDP] Error:", udpSocket.ListenAndServe()) }()
 
-	log.Println("[Stream][DNS] Started")
+	log.Info("[Stream][DNS] Started")
 }
 
 func Dial(network, address string) (net.Conn, error) {
@@ -56,7 +56,7 @@ func handleServerName(w dns.ResponseWriter, r *dns.Msg) {
 	if api.StreamData.DNS.Strict {
 		checked, err := api.CheckIP(w.RemoteAddr())
 		if err != nil {
-			log.Printf("[Stream][DNS][api.CheckIP] %v", err)
+			log.Info("[Stream][DNS][api.CheckIP] Error:", err)
 			return
 		}
 
@@ -71,7 +71,7 @@ func handleServerName(w dns.ResponseWriter, r *dns.Msg) {
 	for i := 0; i < len(r.Question); i++ {
 		rr, err := dns.NewRR(fmt.Sprintf("%s PTR aioCloud", r.Question[i].Name))
 		if err != nil {
-			log.Println(err)
+			log.Info(err)
 			return
 		}
 
@@ -85,7 +85,7 @@ func handleDomainName(w dns.ResponseWriter, r *dns.Msg) {
 	if api.StreamData.DNS.Strict {
 		checked, err := api.CheckIP(w.RemoteAddr())
 		if err != nil {
-			log.Printf("[Stream][DNS][handleDomainName] api.CheckIP: %v", err)
+			log.Info("[Stream][DNS][handleDomainName] api.CheckIP:", err)
 			return
 		}
 

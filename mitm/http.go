@@ -3,13 +3,13 @@ package mitm
 import (
 	"bytes"
 	"io"
-	"log"
 	"net"
 	"strings"
 	"time"
 
 	"github.com/aiocloud/stream/api"
 	"github.com/aiocloud/stream/dns"
+	"github.com/aiocloud/stream/log"
 )
 
 func handleHTTP(client net.Conn) {
@@ -78,7 +78,7 @@ func handleHTTP(client net.Conn) {
 	}
 	data = nil
 
-	log.Printf("[Stream][HTTP][%s] %s <-> %s (%s)", s, client.RemoteAddr(), remote.RemoteAddr(), host)
+	log.Infof("[Stream][HTTP][%s] %s <-> %s (%s)", s, client.RemoteAddr(), remote.RemoteAddr(), host)
 
 	go func() {
 		io.CopyBuffer(client, remote, make([]byte, 1446))

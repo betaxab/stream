@@ -2,11 +2,11 @@ package mitm
 
 import (
 	"io"
-	"log"
 	"net"
 	"time"
 
 	"github.com/aiocloud/stream/api"
+	"github.com/aiocloud/stream/log"
 	"github.com/aiocloud/stream/dns"
 )
 
@@ -143,7 +143,7 @@ func handleTLS(client net.Conn) {
 	}
 	data = nil
 
-	log.Printf("[Stream][TLS][%s] %s <-> %s (%s)", s, client.RemoteAddr(), remote.RemoteAddr(), host)
+	log.Infof("[Stream][TLS][%s] %s <-> %s (%s)", s, client.RemoteAddr().String(), remote.RemoteAddr().String(), host)
 
 	go func() {
 		io.CopyBuffer(client, remote, make([]byte, 1446))

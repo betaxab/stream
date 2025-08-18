@@ -1,34 +1,34 @@
 package mitm
 
 import (
-	"log"
 	"net"
 
 	"github.com/aiocloud/stream/api"
+	"github.com/aiocloud/stream/log"
 )
 
 func ListenHTTP(addr string) {
 	ln, err := net.Listen("tcp", addr)
 	if err != nil {
-		log.Fatalf("[Stream][HTTP][net.Listen] %v", err)
+		log.Fatal("[Stream][HTTP][net.Listen] Error:", err)
 	}
 	defer ln.Close()
 
-	log.Printf("[Stream][HTTP][%s] Started", addr)
+	log.Infof("[Stream][HTTP][%s] Started", addr)
 
 	for {
 		client, err := ln.Accept()
 		if err != nil {
-			log.Fatalf("[Stream][HTTP][ln.Accept] %v", err)
+			log.Fatal("[Stream][HTTP][ln.Accept] Error:", err)
 		}
 
 		if checked, err := api.CheckIP(client.RemoteAddr()); err != nil {
-			log.Printf("[Stream][HTTP][api.CheckIP] %v", err)
+			log.Info("[Stream][HTTP][api.CheckIP]:", err)
 
 			_ = client.Close()
 			continue
 		} else if !checked {
-			log.Printf("[Stream][HTTP][api.CheckIP] Ban %s", client.RemoteAddr())
+			log.Info("[Stream][HTTP][api.CheckIP] Ban:", client.RemoteAddr())
 
 			_ = client.Close()
 			continue
@@ -41,25 +41,25 @@ func ListenHTTP(addr string) {
 func ListenTLS(addr string) {
 	ln, err := net.Listen("tcp", addr)
 	if err != nil {
-		log.Fatalf("[Stream][TLS][net.Listen] %v", err)
+		log.Fatal("[Stream][TLS][net.Listen] Error:", err)
 	}
 	defer ln.Close()
 
-	log.Printf("[Stream][TLS][%s] Started", addr)
+	log.Infof("[Stream][TLS][%s] Started", addr)
 
 	for {
 		client, err := ln.Accept()
 		if err != nil {
-			log.Fatalf("[Stream][TLS][ln.Accept] %v", err)
+			log.Fatal("[Stream][TLS][ln.Accept] Error:", err)
 		}
 
 		if checked, err := api.CheckIP(client.RemoteAddr()); err != nil {
-			log.Printf("[Stream][TLS][api.CheckIP] %v", err)
+			log.Info("[Stream][TLS][api.CheckIP]:", err)
 
 			_ = client.Close()
 			continue
 		} else if !checked {
-			log.Printf("[Stream][TLS][api.CheckIP] Ban %s", client.RemoteAddr())
+			log.Info("[Stream][TLS][api.CheckIP] Ban:", client.RemoteAddr())
 
 			_ = client.Close()
 			continue
