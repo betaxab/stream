@@ -3,8 +3,8 @@ package mitm
 import (
 	"net"
 
-	"github.com/aiocloud/stream/api"
-	"github.com/aiocloud/stream/log"
+	"github.com/aiocloud/stream/app/api"
+	"github.com/aiocloud/stream/app/log"
 )
 
 func ListenHTTP(addr string) {

@@ -5,11 +5,12 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/aiocloud/stream/api"
-	"github.com/aiocloud/stream/conf"
-	"github.com/aiocloud/stream/log"
-	"github.com/aiocloud/stream/dns"
-	"github.com/aiocloud/stream/mitm"
+	"github.com/aiocloud/stream/app"
+	"github.com/aiocloud/stream/app/api"
+	"github.com/aiocloud/stream/app/conf"
+	"github.com/aiocloud/stream/app/log"
+	"github.com/aiocloud/stream/app/dns"
+	"github.com/aiocloud/stream/app/mitm"
 )
 
 type Initializer func() error
@@ -42,7 +43,8 @@ func main() {
 	go UpdateRule()
 
 	log.Infof("[Stream] IPv4: %s IPv6: %s", api.CurrentIPv4, api.CurrentIPv6)
-	log.Info("[Stream] Started")
+	log.Info("[Stream][Main] Started, Version:", app.Version)
+	fmt.Println("[Stream][Main] Started, Version: " + app.Version)
 
 	for {
 		time.Sleep(time.Minute * 10)

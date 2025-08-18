@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/aiocloud/stream/api"
+	"github.com/aiocloud/stream/app/api"
 )
 
 var (

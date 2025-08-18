@@ -7,9 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aiocloud/stream/api"
-	"github.com/aiocloud/stream/log"
 	"github.com/miekg/dns"
+	"github.com/aiocloud/stream/app/api"
+	"github.com/aiocloud/stream/app/log"
+
 )
 
 var (

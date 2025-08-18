@@ -5,8 +5,9 @@ import (
 	"io"
 	"os"
 	"path/filepath"
+
 	"github.com/sirupsen/logrus"
-	"github.com/aiocloud/stream/conf"
+	"github.com/aiocloud/stream/app/conf"
 )
 
 var logger *logrus.Logger

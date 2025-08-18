@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aiocloud/stream/api"
-	"github.com/aiocloud/stream/dns"
-	"github.com/aiocloud/stream/log"
+	"github.com/aiocloud/stream/app/api"
+	"github.com/aiocloud/stream/app/dns"
+	"github.com/aiocloud/stream/app/log"
 )
 
 func handleHTTP(client net.Conn) {

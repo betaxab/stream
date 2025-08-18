@@ -5,9 +5,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/aiocloud/stream/api"
-	"github.com/aiocloud/stream/log"
-	"github.com/aiocloud/stream/dns"
+	"github.com/aiocloud/stream/app/api"
+	"github.com/aiocloud/stream/app/log"
+	"github.com/aiocloud/stream/app/dns"
 )
 
 func handleTLS(client net.Conn) {
