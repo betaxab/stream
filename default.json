@@ -29,7 +29,7 @@
     },
     "rules": [
         {
-            "url": "https://cdn.jsdelivr.net/gh/aiocloud/stream@main/ruleset/allinone.list",
+            "url": "https://raw.githubusercontent.com/betaxab/stream-ruleset/refs/heads/main/allinone.list",
             "mapping": []
         }
     ],
