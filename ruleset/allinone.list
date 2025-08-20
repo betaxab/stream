@@ -776,7 +776,8 @@ DOMAIN-SUFFIX,sbsod.com
 DOMAIN-SUFFIX,stan.com.au
 DOMAIN-SUFFIX,stan.video
 DOMAIN,streamcoimg-a.akamaihd.net
-DOMAIN-KEYWORD,-stan.akamazed.net
+DOMAIN-SUFFIX,live01-stan.akamaized.net
+DOMAIN-SUFFIX,live02-stan.akamaized.net
 
 DOMAIN-SUFFIX,maoritelevision.com
 DOMAIN-SUFFIX,maoriplus.co.nz
