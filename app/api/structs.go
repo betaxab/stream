@@ -38,8 +38,8 @@ type StreamDNS struct {
 	Strict         bool   `json:"strict"`
 	Listen         string `json:"listen"`
 	Upstream       string `json:"upstream"`
-	UseInterfaceIP bool   `json:"use-interface-ip"`
-	InterfaceName  string `json:"interface-name"`
+	UseInterfaceIP bool   `json:"use_interface_ip"`
+	InterfaceName  string `json:"interface_name"`
 }
 
 type StreamTCP struct {

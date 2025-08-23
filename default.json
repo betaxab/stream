@@ -14,8 +14,8 @@
         "strict": true,
         "listen": ":53",
         "upstream": "1.1.1.1:53",
-        "use-interface-ip": true,
-        "interface-name": "eth0"
+        "use_interface_ip": true,
+        "interface_name": "eth0"
     },
     "tcp": {
         "tls": [
