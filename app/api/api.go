@@ -170,12 +170,12 @@ func GetIP(url string) (net.IP, error) {
 func GetInterfaceIP(interfaceName string, ipType string) (net.IP, error) {
 	iface, err := net.InterfaceByName(interfaceName)
 	if err != nil {
-		return nil, fmt.Errorf("api.GetInterfaceIP: 获取接口失败: %w", err)
+		return nil, fmt.Errorf("api.GetInterfaceIP: Get IP address failed: %w", err)
 	}
 
 	addrs, err := iface.Addrs()
 	if err != nil {
-		return nil, fmt.Errorf("api.GetInterfaceIP: 获取地址失败: %w", err)
+		return nil, fmt.Errorf("api.GetInterfaceIP: Get IP address failed: %w", err)
 	}
 
 	for _, addr := range addrs {
@@ -199,7 +199,7 @@ func GetInterfaceIP(interfaceName string, ipType string) (net.IP, error) {
 		}
 	}
 
-	return nil, fmt.Errorf("api.GetInterfaceIP: 接口 %s 未找到 %s 地址", interfaceName, ipType)
+	return nil, fmt.Errorf("api.GetInterfaceIP: Interface %s does not support IP Type: %s", interfaceName, ipType)
 }
 
 func UpdateRule() error {

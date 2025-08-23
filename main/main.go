@@ -64,12 +64,26 @@ func UpdateIP() {
 	for {
 		time.Sleep(time.Second * 120)
 
-		if err := api.UpdateIPv4(); err != nil {
-			log.Info("[Stream] api.UpdateIPv4:", err)
-		}
+		switch api.StreamData.API.Network {
+		case "ipv4_only":
+			if err := api.UpdateIPv4(); err != nil {
+				log.Warn("[Stream][UpdateIP] api.UpdateIPv4 Warning:", err)
+			}
 
-		if err := api.UpdateIPv6(); err != nil {
-			log.Info("[Stream] api.UpdateIPv6:", err)
+		case "ipv6_only":
+			if err := api.UpdateIPv6(); err != nil {
+				log.Warn("[Stream][UpdateIP] api.UpdateIPv6 Warning:", err)
+			}
+
+		case "ipv4_and_ipv6":
+			if err := api.UpdateIPv4(); err != nil {
+				log.Warn("[Stream][UpdateIP] api.UpdateIPv4 Warning:", err)
+			}
+			if err := api.UpdateIPv6(); err != nil {
+				log.Warn("[Stream][UpdateIP] api.UpdateIPv6 Warning:", err)
+			}
+		default:
+			log.Fatalf("[Stream][UpdateIP] Unknown Network Mode: %s", api.StreamData.API.Network)
 		}
 
 		log.Infof("[Stream][UpdateIP] IPv4: %s IPv6: %s", api.CurrentIPv4, api.CurrentIPv6)
