@@ -35,9 +35,11 @@ type StreamLog struct {
 }
 
 type StreamDNS struct {
-	Strict   bool   `json:"strict"`
-	Listen   string `json:"listen"`
-	Upstream string `json:"upstream"`
+	Strict         bool   `json:"strict"`
+	Listen         string `json:"listen"`
+	Upstream       string `json:"upstream"`
+	UseInterfaceIP bool   `json:"use-interface-ip"`
+	InterfaceName  string `json:"interface-name"`
 }
 
 type StreamTCP struct {

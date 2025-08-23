@@ -16,6 +16,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-resty/resty/v2"
 	"github.com/yl2chen/cidranger"
+	"github.com/aiocloud/stream/app"
 )
 
 var (
@@ -130,28 +131,75 @@ func Load(name string) error {
 func GetIP(url string) (net.IP, error) {
 	client := resty.New()
 	client.SetTimeout(time.Second * 10)
+	client.SetHeader("User-Agent", fmt.Sprintf("Stream/%s", app.Version))
 
-	response, err := client.R().Get(url)
+	resp, err := client.R().Get(url)
 	if err != nil {
-		return nil, fmt.Errorf("http.Get: %v", err)
+		return nil, fmt.Errorf("http.Get: %w", err)
+	}
+	if resp.StatusCode() < 200 || resp.StatusCode() >= 300 {
+		return nil, fmt.Errorf("http.Get: unexpected status %d", resp.StatusCode())
 	}
 
-	var addr net.IP = nil
-	scanner := bufio.NewReader(bytes.NewReader(response.Body()))
-	for {
-		i, _, _ := scanner.ReadLine()
-		if i == nil {
-			break
+	// Cloudflare trace 是纯文本 key=value 按行返回
+	scanner := bufio.NewScanner(bytes.NewReader(resp.Body()))
+	for scanner.Scan() {
+		line := strings.TrimSpace(scanner.Text())
+		if line == "" || !strings.Contains(line, "=") {
+			continue
 		}
+		k, v, ok := strings.Cut(line, "=")
+		if !ok {
+			continue
+		}
+		if strings.EqualFold(strings.TrimSpace(k), "ip") {
+			ip := net.ParseIP(strings.TrimSpace(v))
+			if ip == nil {
+				return nil, fmt.Errorf("http.Get: parse ip failed: %q", v)
+			}
+			return ip, nil
+		}
+	}
+	if err := scanner.Err(); err != nil {
+		return nil, fmt.Errorf("http.Get: read body: %w", err)
+	}
+	return nil, fmt.Errorf("http.Get: ip field not found in response")
+}
 
-		list := strings.SplitN(string(i), "=", 2)
-		if list[0] == "ip" {
-			addr = net.ParseIP(strings.TrimSpace(list[1]))
-			break
+// GetInterfaceIP 获取指定网卡的 IPv4 地址
+func GetInterfaceIP(interfaceName string, ipType string) (net.IP, error) {
+	iface, err := net.InterfaceByName(interfaceName)
+	if err != nil {
+		return nil, fmt.Errorf("api.GetInterfaceIP: 获取接口失败: %w", err)
+	}
+
+	addrs, err := iface.Addrs()
+	if err != nil {
+		return nil, fmt.Errorf("api.GetInterfaceIP: 获取地址失败: %w", err)
+	}
+
+	for _, addr := range addrs {
+		switch v := addr.(type) {
+		case *net.IPNet:
+			ip := v.IP
+			if strings.ToLower(ipType) == "ipv4" && ip.To4() != nil {
+				return ip, nil
+			}
+			if strings.ToLower(ipType) == "ipv6" && ip.To16() != nil && ip.To4() == nil {
+				return ip, nil
+			}
+		case *net.IPAddr:
+			ip := v.IP
+			if strings.ToLower(ipType) == "ipv4" && ip.To4() != nil {
+				return ip, nil
+			}
+			if strings.ToLower(ipType) == "ipv6" && ip.To16() != nil && ip.To4() == nil {
+				return ip, nil
+			}
 		}
 	}
 
-	return addr, nil
+	return nil, fmt.Errorf("api.GetInterfaceIP: 接口 %s 未找到 %s 地址", interfaceName, ipType)
 }
 
 func UpdateRule() error {
@@ -165,9 +213,17 @@ func UpdateRule() error {
 }
 
 func UpdateIPv4() error {
-	addr, err := GetIP(StreamData.API.IPv4)
+	var addr net.IP
+	var err error
+
+	if StreamData.DNS.UseInterfaceIP && StreamData.DNS.InterfaceName != "" {
+		addr, err = GetInterfaceIP(StreamData.DNS.InterfaceName, "ipv4")
+	} else {
+		addr, err = GetIP(StreamData.API.IPv4)
+	}
+
 	if err != nil {
-		return fmt.Errorf("api.GetIP: %v", err)
+		return fmt.Errorf("api.GetIP: %w", err)
 	}
 
 	CurrentIPv4 = addr.String()
@@ -175,9 +231,17 @@ func UpdateIPv4() error {
 }
 
 func UpdateIPv6() error {
-	addr, err := GetIP(StreamData.API.IPv6)
+	var addr net.IP
+	var err error
+
+	if StreamData.DNS.UseInterfaceIP && StreamData.DNS.InterfaceName != "" {
+		addr, err = GetInterfaceIP(StreamData.DNS.InterfaceName, "ipv6")
+	} else {
+		addr, err = GetIP(StreamData.API.IPv6)
+	}
+
 	if err != nil {
-		return fmt.Errorf("api.GetIP: %v", err)
+		return fmt.Errorf("api.GetIP: %w", err)
 	}
 
 	CurrentIPv6 = addr.String()

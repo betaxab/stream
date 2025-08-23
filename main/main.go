@@ -42,7 +42,7 @@ func main() {
 	go UpdateIP()
 	go UpdateRule()
 
-	log.Infof("[Stream] IPv4: %s IPv6: %s", api.CurrentIPv4, api.CurrentIPv6)
+	log.Infof("[Stream][Main] IPv4: %s IPv6: %s", api.CurrentIPv4, api.CurrentIPv6)
 	log.Info("[Stream][Main] Started, Version:", app.Version)
 	fmt.Println("[Stream][Main] Started, Version: " + app.Version)
 
@@ -72,7 +72,7 @@ func UpdateIP() {
 			log.Info("[Stream] api.UpdateIPv6:", err)
 		}
 
-		log.Infof("[Stream] IPv4: %s IPv6: %s", api.CurrentIPv4, api.CurrentIPv6)
+		log.Infof("[Stream][UpdateIP] IPv4: %s IPv6: %s", api.CurrentIPv4, api.CurrentIPv6)
 	}
 }
 
@@ -81,7 +81,7 @@ func UpdateRule() {
 		time.Sleep(time.Second * 86400)
 
 		if err := api.UpdateRule(); err != nil {
-			log.Info("[Stream] Update rule failed:", err)
+			log.Info("[Stream][UpdateRule] Update rule failed:", err)
 		}
 	}
 }

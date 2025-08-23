@@ -13,7 +13,9 @@
     "dns": {
         "strict": true,
         "listen": ":53",
-        "upstream": "1.1.1.1:53"
+        "upstream": "1.1.1.1:53",
+        "use-interface-ip": true,
+        "interface-name": "eth0"
     },
     "tcp": {
         "tls": [
@@ -29,7 +31,7 @@
     },
     "rules": [
         {
-            "url": "https://raw.githubusercontent.com/betaxab/stream-ruleset/refs/heads/main/allinone.list",
+            "url": "https://raw.githubusercontent.com/betaxab/stream-ruleset/main/allinone.list",
             "mapping": []
         }
     ],
