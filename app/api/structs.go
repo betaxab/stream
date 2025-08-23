@@ -10,6 +10,7 @@ import (
 	"time"
 
 	"github.com/go-resty/resty/v2"
+	"github.com/aiocloud/stream/app"
 )
 
 type Stream struct {
@@ -70,6 +71,7 @@ func (r *StreamRule) Search(host string, port string) (bool, string) {
 func (r *StreamRule) Update() error {
 	client := resty.New()
 	client.SetTimeout(time.Second * 10)
+	client.SetHeader("User-Agent", fmt.Sprintf("Stream/%s", app.Version))
 
 	response, err := client.R().Get(r.URL)
 	if err != nil {
